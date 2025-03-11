@@ -21,6 +21,8 @@ namespace ReportProject.Core.Entities
         public DateTime? ClockInTime { get; set; }  // זמן כניסה
         public DateTime? ClockOutTime { get; set; }  // זמן יציאה
         public double Salary { get; set; }
+
+        //check if he is managet or employee
         public Role Status { get; set; }//enum
 
     }

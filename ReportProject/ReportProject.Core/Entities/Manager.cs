@@ -8,6 +8,8 @@ namespace ReportProject.Core.Entities
 {
     public class Manager: Employee
     {
-        public Login login { get; set; }
+        private Login login { get; set; }
+        private List<Employee> employees { get; set; }
+
     }
 }
