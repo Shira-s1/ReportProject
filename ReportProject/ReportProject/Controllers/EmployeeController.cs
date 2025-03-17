@@ -1,82 +1,112 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using ReportProject.Core.DTOs;
+using ReportProject.Core.Interfaces;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ReportProject.Api.Controllers
 {
-    public class EmployeeController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EmployeeController : ControllerBase
     {
-        // GET: EmployeeController
-        public ActionResult Index()
+        private readonly IEmployeeService _employeeService; 
+        private readonly IMapper _mapper;
+        private readonly ILogger<EmployeeController> _logger;
+
+        public EmployeeController(IEmployeeService employeeService, IMapper mapper, ILogger<EmployeeController> logger)
         {
-            return View();
+            _employeeService = employeeService;
+            _mapper = mapper;
+            _logger = logger;
         }
 
-        // GET: EmployeeController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: EmployeeController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: EmployeeController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        // GET: api/<@try>
+        [HttpGet]
+        public async Task<ActionResult<List<EmployeeDTO>>> Get()
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                _logger.LogInformation("Getting all employees");
+                var employees = _employeeService.GetAsync();
+                //If you have DTOs, use AutoMapper here
+                var employeeDtos = _mapper.Map<List<EmployeeDTO>>(employees);
+                return Ok(employees); // Or Ok(employeeDtos)
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                _logger.LogError(ex, "Error getting all employees");
+                return StatusCode(500, "Internal Server Error");
             }
         }
 
-        // GET: EmployeeController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: EmployeeController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        // GET api/<@try>/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<EmployeeDTO>> Get(int id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var employee = await _employeeService.GetAsync(id);
+                if (employee == null)
+                {
+                    return NotFound();
+                }
+                return Ok(employee);
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                _logger.LogError(ex, $"Error getting employee with id {id}");
+                return StatusCode(500, "Internal Server Error");
             }
         }
 
-        // GET: EmployeeController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: EmployeeController/Delete/5
+        // POST api/<@try>
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult<EmployeeDTO>> Post([FromBody] EmployeeDTO employeeDto)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                await _employeeService.PostAsync(employeeDto);
+                return CreatedAtAction(nameof(Get), new { id = employeeDto.Id }, employeeDto);
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                _logger.LogError(ex, "Error creating employee");
+                return BadRequest(ex.Message);
+            }
+        }
+
+
+        // PUT api/<@try>/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] EmployeeDTO employeeDto)
+        {
+            try
+            {
+                await _employeeService.PutAsync(id, employeeDto);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error updating employee with id {id}");
+                return NotFound(ex.Message);
+            }
+        }
+
+        // DELETE api/<@try>/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _employeeService.DeleteAsync(id);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"Error deleting employee with id {id}");
+                return NotFound(ex.Message);
             }
         }
     }

@@ -1,0 +1,15 @@
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\bin\Debug\net9.0\ReportProject.Core.deps.json
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\bin\Debug\net9.0\ReportProject.Core.runtimeconfig.json
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\bin\Debug\net9.0\ReportProject.Core.dll
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\bin\Debug\net9.0\ReportProject.Core.pdb
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.csproj.AssemblyReference.cache
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.AssemblyInfoInputs.cache
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.AssemblyInfo.cs
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.csproj.CoreCompileInputs.cache
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.sourcelink.json
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.dll
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\refint\ReportProject.Core.dll
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.pdb
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ReportProject.Core.genruntimeconfig.cache
+C:\תכנות\שנה ב\Dot Net\ReportProject\ReportProject\ReportProject.Core\obj\Debug\net9.0\ref\ReportProject.Core.dll
