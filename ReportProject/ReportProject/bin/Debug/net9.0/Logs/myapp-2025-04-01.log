@@ -1,0 +1,498 @@
+2025-04-01 19:59:35.2844 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory - Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2025-04-01 19:59:35.3895 DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2025-04-01 19:59:35.5330 DEBUG Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-01 19:59:35.5330 DEBUG Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Wildcard detected, all requests with hosts will be allowed.
+2025-04-01 19:59:35.5688 INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5064
+2025-04-01 19:59:35.5688 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly ReportProject.Api
+2025-04-01 19:59:35.5688 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-01 19:59:35.5688 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-01 19:59:35.5688 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-01 19:59:35.5814 DEBUG Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-01 19:59:35.5814 DEBUG Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-01 19:59:35.7246 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAL" received FIN.
+2025-04-01 19:59:35.7246 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAM" received FIN.
+2025-04-01 19:59:35.7246 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAM" accepted.
+2025-04-01 19:59:35.7246 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAL" accepted.
+2025-04-01 19:59:35.7246 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAL" started.
+2025-04-01 19:59:35.7246 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAM" started.
+2025-04-01 19:59:35.7246 INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-04-01 19:59:35.7246 INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-04-01 19:59:35.7246 INFO Microsoft.Hosting.Lifetime - Content root path: C:\תכנות\שנה ב\Dot Net\ReportProject1\ReportProject\ReportProject
+2025-04-01 19:59:35.7246 DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2025-04-01 19:59:35.7433 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 19:59:35.7433 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 19:59:35.7433 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAM" disconnecting.
+2025-04-01 19:59:35.7433 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAL" disconnecting.
+2025-04-01 19:59:35.7489 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAM" stopped.
+2025-04-01 19:59:35.7489 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAL" stopped.
+2025-04-01 19:59:36.0018 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAN" accepted.
+2025-04-01 19:59:36.0018 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAN" started.
+2025-04-01 19:59:36.1333 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAO" accepted.
+2025-04-01 19:59:36.1333 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAO" started.
+2025-04-01 19:59:36.4394 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAO" received FIN.
+2025-04-01 19:59:36.4394 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAO" disconnecting.
+2025-04-01 19:59:36.4394 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAO" stopped.
+2025-04-01 19:59:36.4526 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 19:59:36.5603 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.html - - -
+2025-04-01 19:59:36.9583 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 19:59:37.2495 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/index.html'
+2025-04-01 19:59:37.2495 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 19:59:37.4856 DEBUG Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup is scheduled to include Browser Link script injection.
+2025-04-01 19:59:37.4856 DEBUG Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+2025-04-01 19:59:37.4997 DEBUG Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup was updated to include Browser Link script injection.
+2025-04-01 19:59:37.4997 DEBUG Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+2025-04-01 19:59:37.4997 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAN" completed keep alive response.
+2025-04-01 19:59:37.5178 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.html - 200 - text/html;charset=utf-8 1025.4713ms
+2025-04-01 19:59:37.5661 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAN" received FIN.
+2025-04-01 19:59:37.5661 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAN" disconnecting.
+2025-04-01 19:59:37.5661 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAN" stopped.
+2025-04-01 19:59:37.5661 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 19:59:37.6039 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAP" accepted.
+2025-04-01 19:59:37.6039 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAQ" accepted.
+2025-04-01 19:59:37.6039 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAP" started.
+2025-04-01 19:59:37.6104 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/_framework/aspnetcore-browser-refresh.js - - -
+2025-04-01 19:59:37.6104 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAP" completed keep alive response.
+2025-04-01 19:59:37.6104 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript;+charset=utf-8 2.7671ms
+2025-04-01 19:59:37.6104 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAQ" started.
+2025-04-01 19:59:37.6104 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.js - - -
+2025-04-01 19:59:37.6104 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 19:59:37.6104 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/index.js'
+2025-04-01 19:59:37.6104 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 19:59:37.6104 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAQ" completed keep alive response.
+2025-04-01 19:59:37.6104 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.js - 200 - application/javascript;charset=utf-8 5.0730ms
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAP" received FIN.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAQ" received FIN.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" accepted.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAP" disconnecting.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAP" stopped.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAQ" disconnecting.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAQ" stopped.
+2025-04-01 19:59:37.7329 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" started.
+2025-04-01 19:59:37.7329 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/_vs/browserLink - - -
+2025-04-01 19:59:37.7813 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 19:59:37.7813 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 19:59:38.5169 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" completed keep alive response.
+2025-04-01 19:59:38.5169 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 783.3014ms
+2025-04-01 19:59:38.7004 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - - -
+2025-04-01 19:59:38.7004 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 19:59:38.7004 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-01 19:59:38.7004 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 19:59:39.3490 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" completed keep alive response.
+2025-04-01 19:59:39.3490 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 648.7828ms
+2025-04-01 19:59:46.5753 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/api/Employee - - -
+2025-04-01 19:59:46.5753 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 19:59:46.5860 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Employee'
+2025-04-01 19:59:46.5860 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2025-04-01 19:59:46.5860 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 19:59:46.5860 TRACE Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-04-01 19:59:46.5939 DEBUG Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Static files was skipped as the request already matched an endpoint.
+2025-04-01 19:59:46.5939 WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-04-01 19:59:46.5939 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 19:59:46.6189 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ReportProject.Core.DTOs.EmployeeGetDTO]]] Get() on controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api).
+2025-04-01 19:59:46.6189 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): None
+2025-04-01 19:59:46.6189 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): None
+2025-04-01 19:59:46.6189 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-04-01 19:59:46.6189 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): None
+2025-04-01 19:59:46.6189 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-04-01 19:59:46.6189 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 19:59:46.7659 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 19:59:46.7659 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 19:59:46.7659 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 19:59:46.7659 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 19:59:46.7659 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 19:59:46.7659 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) - Validation state: Valid
+2025-04-01 19:59:46.7659 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-01 19:59:46.7659 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-01 19:59:46.7659 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-01 19:59:49.8110 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 5 employees from the database.
+2025-04-01 19:59:49.8364 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3053.1641ms.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 19:59:49.8364 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 19:59:49.8364 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-04-01 19:59:49.8426 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-04-01 19:59:49.8426 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-04-01 19:59:49.8426 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-01 19:59:49.8426 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-01 19:59:49.8426 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-01 19:59:49.8426 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReportProject.Core.DTOs.EmployeeGetDTO, ReportProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-01 19:59:49.8663 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 19:59:49.8663 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 19:59:49.8663 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 19:59:49.8663 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) in 3245.9844ms
+2025-04-01 19:59:49.8663 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 19:59:49.8736 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" completed keep alive response.
+2025-04-01 19:59:49.8736 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/api/Employee - 200 - application/json;+charset=utf-8 3312.1479ms
+2025-04-01 19:59:58.8238 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAR" received FIN.
+2025-04-01 19:59:58.8238 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" disconnecting.
+2025-04-01 19:59:58.8238 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7QAF2QAR" stopped.
+2025-04-01 19:59:58.8238 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7QAF2QAR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:04:34.4930 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory - Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2025-04-01 20:04:34.5886 DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2025-04-01 20:04:34.6960 DEBUG Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-01 20:04:34.6960 DEBUG Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Wildcard detected, all requests with hosts will be allowed.
+2025-04-01 20:04:34.7288 INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5064
+2025-04-01 20:04:34.7288 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly ReportProject.Api
+2025-04-01 20:04:34.7288 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-01 20:04:34.7288 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-01 20:04:34.7288 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-01 20:04:34.7370 DEBUG Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-01 20:04:34.7370 DEBUG Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-01 20:04:34.8308 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLE" accepted.
+2025-04-01 20:04:34.8308 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLD" accepted.
+2025-04-01 20:04:34.8308 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLE" received FIN.
+2025-04-01 20:04:34.8308 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLD" received FIN.
+2025-04-01 20:04:34.8308 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLE" started.
+2025-04-01 20:04:34.8308 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLD" started.
+2025-04-01 20:04:34.8308 INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-04-01 20:04:34.8308 INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-04-01 20:04:34.8308 INFO Microsoft.Hosting.Lifetime - Content root path: C:\תכנות\שנה ב\Dot Net\ReportProject1\ReportProject\ReportProject
+2025-04-01 20:04:34.8422 DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2025-04-01 20:04:34.8422 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:04:34.8422 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:04:34.8422 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLD" disconnecting.
+2025-04-01 20:04:34.8422 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLE" disconnecting.
+2025-04-01 20:04:34.8582 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLD" stopped.
+2025-04-01 20:04:34.8582 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLE" stopped.
+2025-04-01 20:04:34.9538 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLF" accepted.
+2025-04-01 20:04:34.9538 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLF" started.
+2025-04-01 20:04:35.2656 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLG" accepted.
+2025-04-01 20:04:35.4180 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLG" started.
+2025-04-01 20:04:35.6570 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.html - - -
+2025-04-01 20:04:35.9462 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:04:35.9953 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/index.html'
+2025-04-01 20:04:36.0277 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 20:04:36.2506 DEBUG Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup is scheduled to include Browser Link script injection.
+2025-04-01 20:04:36.2506 DEBUG Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+2025-04-01 20:04:36.3001 DEBUG Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup was updated to include Browser Link script injection.
+2025-04-01 20:04:36.3001 DEBUG Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+2025-04-01 20:04:36.3001 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.js - - -
+2025-04-01 20:04:36.3001 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLH" accepted.
+2025-04-01 20:04:36.3143 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLF" completed keep alive response.
+2025-04-01 20:04:36.3143 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:04:36.3143 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" accepted.
+2025-04-01 20:04:36.3143 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/index.js'
+2025-04-01 20:04:36.3274 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLH" started.
+2025-04-01 20:04:36.3274 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 20:04:36.3274 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLG" completed keep alive response.
+2025-04-01 20:04:36.3274 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/_framework/aspnetcore-browser-refresh.js - - -
+2025-04-01 20:04:36.3274 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLH" completed keep alive response.
+2025-04-01 20:04:36.3274 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" started.
+2025-04-01 20:04:36.3515 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/_vs/browserLink - - -
+2025-04-01 20:04:36.3616 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.js - 200 - application/javascript;charset=utf-8 23.9455ms
+2025-04-01 20:04:36.3616 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript;+charset=utf-8 5.1226ms
+2025-04-01 20:04:36.3616 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.html - 200 - text/html;charset=utf-8 674.3327ms
+2025-04-01 20:04:36.4266 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" completed keep alive response.
+2025-04-01 20:04:36.4266 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 79.6759ms
+2025-04-01 20:04:36.7973 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - - -
+2025-04-01 20:04:36.8223 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:04:36.8223 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-01 20:04:36.8302 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 20:04:37.1806 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" completed keep alive response.
+2025-04-01 20:04:37.1806 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 383.7171ms
+2025-04-01 20:04:41.7652 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/api/Employee - - -
+2025-04-01 20:04:41.7652 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:04:41.7984 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Employee'
+2025-04-01 20:04:41.7984 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2025-04-01 20:04:41.7984 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:04:41.7984 TRACE Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-04-01 20:04:41.7984 DEBUG Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Static files was skipped as the request already matched an endpoint.
+2025-04-01 20:04:41.8115 WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-04-01 20:04:41.8115 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:04:41.8602 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ReportProject.Core.DTOs.EmployeeGetDTO]]] Get() on controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api).
+2025-04-01 20:04:41.8602 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): None
+2025-04-01 20:04:41.8602 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): None
+2025-04-01 20:04:41.8602 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-04-01 20:04:41.8602 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): None
+2025-04-01 20:04:41.8602 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-04-01 20:04:41.8748 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:04:42.1747 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:04:42.1747 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:04:42.1747 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:04:42.1747 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:04:42.1747 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:04:42.1899 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) - Validation state: Valid
+2025-04-01 20:04:42.1899 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-01 20:04:42.1899 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-01 20:04:42.2059 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-01 20:04:44.4381 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 5 employees from the database.
+2025-04-01 20:04:44.4831 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2281.5926ms.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:04:44.4831 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:04:44.5002 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-04-01 20:04:44.5359 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-04-01 20:04:44.5359 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-04-01 20:04:44.5359 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-01 20:04:44.5359 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-01 20:04:44.5359 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-01 20:04:44.5447 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReportProject.Core.DTOs.EmployeeGetDTO, ReportProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-01 20:04:44.5768 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:04:44.5768 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:04:44.5768 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:04:44.5768 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) in 2707.563ms
+2025-04-01 20:04:44.5768 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:04:44.5768 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" completed keep alive response.
+2025-04-01 20:04:44.6002 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/api/Employee - 200 - application/json;+charset=utf-8 2835.0215ms
+2025-04-01 20:05:03.2120 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/api/Employee/23 - - -
+2025-04-01 20:05:03.2205 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:05:03.2205 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Employee/23'
+2025-04-01 20:05:03.2205 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)' with route pattern 'api/Employee/{id}' is valid for the request path '/api/Employee/23'
+2025-04-01 20:05:03.2205 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:05:03.2205 TRACE Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-04-01 20:05:03.2205 DEBUG Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Static files was skipped as the request already matched an endpoint.
+2025-04-01 20:05:03.2205 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:05:03.2379 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ReportProject.Core.DTOs.EmployeeGetDTO]] Get(Int32) on controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api).
+2025-04-01 20:05:03.2379 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): None
+2025-04-01 20:05:03.2379 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): None
+2025-04-01 20:05:03.2379 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-04-01 20:05:03.2379 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): None
+2025-04-01 20:05:03.2379 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-04-01 20:05:03.2379 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder - Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder - Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-04-01 20:05:03.2488 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-04-01 20:05:03.2488 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:05:03.2488 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:05:03.2488 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:05:03.2488 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:05:03.2488 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) - Validation state: Valid
+2025-04-01 20:05:03.2488 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) with arguments (23)
+2025-04-01 20:05:03.2648 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/23
+2025-04-01 20:05:03.2648 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 23
+2025-04-01 20:05:03.4195 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved employee with ID 23 from the database.
+2025-04-01 20:05:03.4245 INFO ReportProject.Api.Controllers.EmployeeController - Successfully retrieved employee with ID 23.
+2025-04-01 20:05:03.4245 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 161.3353ms.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:05:03.4245 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-04-01 20:05:03.4245 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-04-01 20:05:03.4245 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-04-01 20:05:03.4245 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-01 20:05:03.4245 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-01 20:05:03.4245 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-01 20:05:03.4245 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'ReportProject.Core.DTOs.EmployeeGetDTO'.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:05:03.4245 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:05:03.4245 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) in 191.6356ms
+2025-04-01 20:05:03.4363 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:05:03.4363 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" completed keep alive response.
+2025-04-01 20:05:03.4363 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/api/Employee/23 - 200 - application/json;+charset=utf-8 225.9040ms
+2025-04-01 20:05:08.3498 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLF" received FIN.
+2025-04-01 20:05:08.3498 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLH" received FIN.
+2025-04-01 20:05:08.3498 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLI" received FIN.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLF" disconnecting.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLH" disconnecting.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLG" received FIN.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" disconnecting.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLF" stopped.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLI" stopped.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLG" disconnecting.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLG" stopped.
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:05:08.3598 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7T3JIOLG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:05:08.3742 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7T3JIOLH" stopped.
+2025-04-01 20:07:19.6333 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory - Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2025-04-01 20:07:19.7120 DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting starting
+2025-04-01 20:07:19.8220 DEBUG Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-04-01 20:07:19.8277 DEBUG Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - Wildcard detected, all requests with hosts will be allowed.
+2025-04-01 20:07:19.8583 INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5064
+2025-04-01 20:07:19.8583 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly ReportProject.Api
+2025-04-01 20:07:19.8583 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-01 20:07:19.8583 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-01 20:07:19.8583 DEBUG Microsoft.AspNetCore.Hosting.Diagnostics - Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-01 20:07:19.8583 DEBUG Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-01 20:07:19.8747 DEBUG Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider - Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-04-01 20:07:19.9883 INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2025-04-01 20:07:19.9883 INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2025-04-01 20:07:19.9883 INFO Microsoft.Hosting.Lifetime - Content root path: C:\תכנות\שנה ב\Dot Net\ReportProject1\ReportProject\ReportProject
+2025-04-01 20:07:19.9883 DEBUG Microsoft.Extensions.Hosting.Internal.Host - Hosting started
+2025-04-01 20:07:20.0883 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7UKRJBR1" received FIN.
+2025-04-01 20:07:20.0954 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR1" accepted.
+2025-04-01 20:07:20.0954 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR1" started.
+2025-04-01 20:07:20.1182 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7UKRJBR1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:07:20.1245 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR1" disconnecting.
+2025-04-01 20:07:20.1245 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR1" stopped.
+2025-04-01 20:07:20.2539 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR2" accepted.
+2025-04-01 20:07:20.2674 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR2" started.
+2025-04-01 20:07:20.6027 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR3" accepted.
+2025-04-01 20:07:20.8758 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR3" started.
+2025-04-01 20:07:20.9670 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.html - - -
+2025-04-01 20:07:21.2856 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:07:21.3356 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/index.html'
+2025-04-01 20:07:21.3356 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 20:07:21.4917 DEBUG Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup is scheduled to include Browser Link script injection.
+2025-04-01 20:07:21.4917 DEBUG Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup is scheduled to include browser refresh script injection.
+2025-04-01 20:07:21.5161 DEBUG Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware - Response markup was updated to include Browser Link script injection.
+2025-04-01 20:07:21.5161 DEBUG Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware - Response markup was updated to include browser refresh script injection.
+2025-04-01 20:07:21.5396 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/_framework/aspnetcore-browser-refresh.js - - -
+2025-04-01 20:07:21.5396 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR2" completed keep alive response.
+2025-04-01 20:07:21.5678 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR4" accepted.
+2025-04-01 20:07:21.6032 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR3" completed keep alive response.
+2025-04-01 20:07:21.6032 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" accepted.
+2025-04-01 20:07:21.6075 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" started.
+2025-04-01 20:07:21.6075 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/_vs/browserLink - - -
+2025-04-01 20:07:21.6271 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/_framework/aspnetcore-browser-refresh.js - 200 13786 application/javascript;+charset=utf-8 65.3231ms
+2025-04-01 20:07:21.6271 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.html - 200 - text/html;charset=utf-8 649.3312ms
+2025-04-01 20:07:21.6271 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR4" started.
+2025-04-01 20:07:21.6437 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/index.js - - -
+2025-04-01 20:07:21.6437 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:07:21.6565 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/index.js'
+2025-04-01 20:07:21.6565 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 20:07:21.6763 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR4" completed keep alive response.
+2025-04-01 20:07:21.6763 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/index.js - 200 - application/javascript;charset=utf-8 41.4072ms
+2025-04-01 20:07:21.7266 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" completed keep alive response.
+2025-04-01 20:07:21.7266 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 119.7427ms
+2025-04-01 20:07:22.0859 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - - -
+2025-04-01 20:07:22.0939 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:07:22.0939 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-01 20:07:22.0939 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request did not match any endpoints
+2025-04-01 20:07:22.4535 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" completed keep alive response.
+2025-04-01 20:07:22.4535 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 368.0221ms
+2025-04-01 20:07:25.9517 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/api/Employee - - -
+2025-04-01 20:07:25.9517 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:07:25.9517 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Employee'
+2025-04-01 20:07:25.9517 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)' with route pattern 'api/Employee' is valid for the request path '/api/Employee'
+2025-04-01 20:07:25.9678 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:07:25.9678 TRACE Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-04-01 20:07:25.9678 DEBUG Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Static files was skipped as the request already matched an endpoint.
+2025-04-01 20:07:25.9678 WARN Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2025-04-01 20:07:25.9678 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:07:25.9956 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[ReportProject.Core.DTOs.EmployeeGetDTO]]] Get() on controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api).
+2025-04-01 20:07:25.9956 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): None
+2025-04-01 20:07:25.9956 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): None
+2025-04-01 20:07:25.9996 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-04-01 20:07:25.9996 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): None
+2025-04-01 20:07:25.9996 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-04-01 20:07:25.9996 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:07:26.1483 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:07:26.1483 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:26.1483 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:26.1483 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:26.1483 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:26.1669 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) - Validation state: Valid
+2025-04-01 20:07:26.1698 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-01 20:07:26.1698 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-01 20:07:26.1698 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-01 20:07:28.4702 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 5 employees from the database.
+2025-04-01 20:07:28.5087 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2330.8949ms.
+2025-04-01 20:07:28.5087 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:28.5087 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:28.5087 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:28.5087 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:28.5141 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:28.5141 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:28.5141 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:07:28.5141 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-04-01 20:07:28.5141 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-04-01 20:07:28.5141 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-04-01 20:07:28.5141 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-01 20:07:28.5141 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-01 20:07:28.5141 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-01 20:07:28.5300 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ReportProject.Core.DTOs.EmployeeGetDTO, ReportProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-01 20:07:28.5583 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:07:28.5583 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:28.5605 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:28.5605 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) in 2559.3561ms
+2025-04-01 20:07:28.5605 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:07:28.5605 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" completed keep alive response.
+2025-04-01 20:07:28.5837 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/api/Employee - 200 - application/json;+charset=utf-8 2631.8657ms
+2025-04-01 20:07:38.3639 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5064/api/Employee/22 - - -
+2025-04-01 20:07:38.3639 TRACE Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware - All hosts are allowed.
+2025-04-01 20:07:38.3639 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - 1 candidate(s) found for the request path '/api/Employee/22'
+2025-04-01 20:07:38.3639 DEBUG Microsoft.AspNetCore.Routing.Matching.DfaMatcher - Endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)' with route pattern 'api/Employee/{id}' is valid for the request path '/api/Employee/22'
+2025-04-01 20:07:38.3639 DEBUG Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - Request matched endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:07:38.3639 TRACE Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware - The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-04-01 20:07:38.3732 DEBUG Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware - Static files was skipped as the request already matched an endpoint.
+2025-04-01 20:07:38.3732 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:07:38.3732 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[ReportProject.Core.DTOs.EmployeeGetDTO]] Get(Int32) on controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api).
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of authorization filters (in the following order): None
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of resource filters (in the following order): None
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of exception filters (in the following order): None
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed controller factory for controller ReportProject.Api.Controllers.EmployeeController (ReportProject.Api)
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-04-01 20:07:38.3895 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder - Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-04-01 20:07:38.4041 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder - Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-04-01 20:07:38.4041 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-04-01 20:07:38.4041 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-04-01 20:07:38.4041 DEBUG Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder - Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-04-01 20:07:38.4041 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:38.4041 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:38.4041 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:38.4041 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:38.4041 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) - Validation state: Valid
+2025-04-01 20:07:38.4041 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executing action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) with arguments (22)
+2025-04-01 20:07:38.4041 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/22
+2025-04-01 20:07:38.4041 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 22
+2025-04-01 20:07:38.5917 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved employee with ID 22 from the database.
+2025-04-01 20:07:38.5917 INFO ReportProject.Api.Controllers.EmployeeController - Successfully retrieved employee with ID 22.
+2025-04-01 20:07:38.5917 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action method ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 185.2859ms.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:07:38.5917 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-04-01 20:07:38.5917 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-04-01 20:07:38.5917 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-04-01 20:07:38.5917 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-01 20:07:38.5917 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-01 20:07:38.5917 DEBUG Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-01 20:07:38.5917 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing OkObjectResult, writing value of type 'ReportProject.Core.DTOs.EmployeeGetDTO'.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:38.5917 TRACE Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-04-01 20:07:38.5917 INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker - Executed action ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api) in 215.2525ms
+2025-04-01 20:07:38.6079 INFO Microsoft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ReportProject.Api.Controllers.EmployeeController.Get (ReportProject.Api)'
+2025-04-01 20:07:38.6079 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" completed keep alive response.
+2025-04-01 20:07:38.6079 INFO Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET http://localhost:5064/api/Employee/22 - 200 - application/json;+charset=utf-8 245.3591ms
+2025-04-01 20:09:32.1398 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR2" disconnecting.
+2025-04-01 20:09:32.1398 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR3" disconnecting.
+2025-04-01 20:09:32.1398 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR3" stopped.
+2025-04-01 20:09:32.1398 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR2" stopped.
+2025-04-01 20:09:32.1398 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7UKRJBR3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:09:32.1398 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7UKRJBR2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:09:33.1464 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR4" disconnecting.
+2025-04-01 20:09:33.1464 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR4" stopped.
+2025-04-01 20:09:33.1464 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7UKRJBR4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 20:09:49.2702 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" disconnecting.
+2025-04-01 20:09:49.2702 DEBUG Microsoft.AspNetCore.Server.Kestrel.Connections - Connection id "0HNBH7UKRJBR5" stopped.
+2025-04-01 20:09:49.2702 DEBUG Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets - Connection id "0HNBH7UKRJBR5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-01 22:00:45.6717 INFO ReportProject.Api.Controllers.ReportController - Getting all reports
+2025-04-01 22:00:45.7123 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve all reports.
+2025-04-01 22:00:45.8611 INFO ReportProject.Service.Service.ReportService - Successfully retrieved 3 reports.
+2025-04-01 22:01:15.0473 INFO ReportProject.Api.Controllers.ReportController - Request received: GET /api/Report/10
+2025-04-01 22:01:15.0473 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve report with ID: 10
+2025-04-01 22:01:15.2037 INFO ReportProject.Service.Service.ReportService - Successfully retrieved report with ID: 10.
+2025-04-01 22:02:51.6902 INFO ReportProject.Api.Controllers.ReportController - Getting all reports
+2025-04-01 22:02:51.7071 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve all reports.
+2025-04-01 22:02:53.2165 INFO ReportProject.Service.Service.ReportService - Successfully retrieved 3 reports.
+2025-04-01 22:04:07.7175 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/22
+2025-04-01 22:04:07.7175 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 22
+2025-04-01 22:04:08.0145 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved employee with ID 22 from the database.
+2025-04-01 22:04:08.0145 INFO ReportProject.Api.Controllers.EmployeeController - Successfully retrieved employee with ID 22.

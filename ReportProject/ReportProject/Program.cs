@@ -1,190 +1,194 @@
-//using ReportProject.Core.Interfaces;
-//using ReportProject.Data;
-//using ReportProject.Service.Service;
-
-//var builder = WebApplication.CreateBuilder(args);
-
-//// Add services to the container.
-
-//builder.Services.AddControllers();
-//// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddOpenApi();
-
-//var app = builder.Build();
-//builder.Services.AddDbContext<DataContext>();
-//builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-//// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.MapOpenApi();
-
-//}
-
-//app.UseHttpsRedirection();
-
-//app.UseAuthorization();
-
-//app.MapControllers();
-
-//app.Run();
-//*************************************************
-//var builder = WebApplication.CreateBuilder(args);
-
-//// Add services to the container.
-
-//builder.Services.AddControllers();
-//// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Your API Name", Version = "v1" });
-//});
-
-//var app = builder.Build();
-
-//// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI(c =>
-//    {
-//        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name v1");
-//    });
-//}
-
-//app.UseHttpsRedirection();
-
-//app.UseAuthorization();
-
-//app.MapControllers();
-
-//app.Run();
-//***********************************************
-//using Microsoft.AspNetCore.Cors.Infrastructure;
-//using ReportProject.Core.Interfaces;
-//using ReportProject.Data;
-//using ReportProject.Service.Service;
-
-//try
-//{
-//    var builder = WebApplication.CreateBuilder(args);
-
-//    // Add services to the container.
-//    builder.Services.AddControllers();
-//    builder.Services.AddSwaggerGen(c =>
-//    {
-//        c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Your API Name", Version = "v1" });
-//    });
-
-//    var app = builder.Build();
-//    builder.Services.AddDbContext<DataContext>();
-//    builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-//    // Configure the HTTP request pipeline.
-//    if (app.Environment.IsDevelopment())
-//    {
-//        app.UseSwagger();
-//        app.UseSwaggerUI(c =>
-//        {
-//            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name v1");
-//        });
-//    }
-
-//    app.UseHttpsRedirection();
-//    app.UseAuthorization();
-//    app.MapControllers();
-//    app.Run();
-//}
-//catch (Exception ex)
-//{
-//    Console.WriteLine($"An error occurred during startup: {ex}");
-//    // אפשר גם לרשום ללוג או ל-Event Viewer כאן
-//}
-//**************************************************
-
-
 //using Microsoft.EntityFrameworkCore;
 //using ReportProject.Core.DTOs;
 //using ReportProject.Core.Interfaces;
 //using ReportProject.Data;
 //using ReportProject.Service.Service;
+//using NLog;
+//using NLog.Web;
+//using System.IO;
+//using ReportProject.Api.Middleware;
+
 
 //var builder = WebApplication.CreateBuilder(args);
 
-//// הוסף את ה-Connection String מ- appsettings.json
-//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-//// רישום ה- DbContext עם ה- Connection String
-//builder.Services.AddDbContext<DataContext>(options =>
-//    options.UseSqlServer(connectionString));
-
-//// הוספת השירותים
-//builder.Services.AddControllers();
-//builder.Services.AddSwaggerGen(c =>
+//// Create Logs directory if it doesn't exist
+//string logDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
+//if (!Directory.Exists(logDirectory))
 //{
-//    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Your API Name", Version = "v1" });
-//});
-
-//// רישום השירות IEmployeeService
-//builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-
-//builder.Services.AddAutoMapper(typeof(MapperProfile));
-//var app = builder.Build();
-
-//// הגדרת Swagger רק בסביבת פיתוח
-//if (app.Environment.IsDevelopment())
+//    Directory.CreateDirectory(logDirectory);
+//    Console.WriteLine("Logs directory created at: " + logDirectory);  // Debug log
+//}
+//else
 //{
-//    app.UseSwagger();
-//    app.UseSwaggerUI(c =>
-//    {
-//        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name v1");
-//    });
+//    Console.WriteLine("Logs directory already exists at: " + logDirectory);  // Debug log
 //}
 
-//// הפעלת מנות נוספים
+
+
+//// Configure NLog-------------------------------------
+//LogManager.Setup().LoadConfigurationFromFile("nlog.config");
+//builder.Logging.ClearProviders();
+//builder.Host.UseNLog();
+
+//builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+//builder.Services.AddScoped<IReportService, ReportService>();
+//builder.Services.AddAutoMapper(typeof(MapperProfile));
+
+//// Add services to the container.
+//builder.Services.AddControllers();
+//// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+//builder.Services.AddOpenApi();
+//builder.Services.AddSwaggerGen();//AAAA
+
+//var app = builder.Build();
+
+//// Middleware לטיפול בשגיאות
+//app.UseMiddleware<ErrorMiddleware>();
+
+//// Middleware ללוגינג
+//app.UseMiddleware<LogMiddleware>();
+
+//// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.MapOpenApi();
+//    app.UseSwagger();//AAAA
+//    app.UseSwaggerUI();//AAAA
+//}
+
 //app.UseHttpsRedirection();
+
 //app.UseAuthorization();
+
 //app.MapControllers();
+
 //app.Run();
 
+
+//use JWT Authentication
 using Microsoft.EntityFrameworkCore;
 using ReportProject.Core.DTOs;
 using ReportProject.Core.Interfaces;
 using ReportProject.Data;
 using ReportProject.Service.Service;
+using NLog;
+using NLog.Web;
+using System.IO;
+using ReportProject.Api.Middleware;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Identity;
+using ReportProject.Core.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// הוספת DbContext עם ה- ConnectionString (פעם אחת בלבד!)
-builder.Services.AddDbContext<DataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// הוספת שירותים נוספים
-builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddScoped<IEnryAndExitService, EntryAndExitService>();
-builder.Services.AddScoped<IVacationsService, VacationsService>();
-builder.Services.AddAutoMapper(typeof(MapperProfile));
-builder.Services.AddControllers();
-
-// הוספת Swagger אם יש צורך
-builder.Services.AddSwaggerGen(c =>
+// Create Logs directory if it doesn't exist
+string logDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
+if (!Directory.Exists(logDirectory))
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Your API Name", Version = "v1" });
+    Directory.CreateDirectory(logDirectory);
+    Console.WriteLine("Logs directory created at: " + logDirectory);  // Debug log
+}
+else
+{
+    Console.WriteLine("Logs directory already exists at: " + logDirectory);  // Debug log
+}
+
+// Configure NLog-------------------------------------
+LogManager.Setup().LoadConfigurationFromFile("nlog.config");
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
+
+builder.Services.AddDbContext<DataContext>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IReportService, ReportService>();
+builder.Services.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();//AAA-JWT
+builder.Services.AddAutoMapper(typeof(MapperProfile));
+
+// Add services for Authentication and JWT
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        ClockSkew = TimeSpan.Zero,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
 });
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("ManagerOnly", policy => policy.RequireRole("Manager"));
+  
+});
+
+// Add Swagger support for JWT
+builder.Services.AddOpenApi();
+builder.Services.AddSwaggerGen(setup =>
+{
+    var jwtSecurityScheme = new OpenApiSecurityScheme
+    {
+        BearerFormat = "JWT",
+        Name = "JWT Authentication",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = JwtBearerDefaults.AuthenticationScheme,
+        Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
+
+        Reference = new OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = ReferenceType.SecurityScheme
+        }
+    };
+
+    setup.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+
+    setup.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        { jwtSecurityScheme, Array.Empty<string>() }
+    });
+});//AAAA
+builder.Services.AddSwaggerGen();//AAAA
+
+// Add services to the container.
+builder.Services.AddControllers();
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
 var app = builder.Build();
 
-// קונפיגורציה עבור Swagger
+// Middleware לטיפול בשגיאות
+app.UseMiddleware<ErrorMiddleware>();
+
+// Middleware ללוגינג
+app.UseMiddleware<LogMiddleware>();
+
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name v1");
-    });
+    app.MapOpenApi();
+    app.UseSwagger();//AAAA
+    app.UseSwaggerUI();//AAAA
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
+
+app.UseAuthentication(); // הוספת Middleware של Authentication
+app.UseAuthorization(); // הוספת Middleware של Authorization
+
 app.MapControllers();
+
 app.Run();
-// כשמנסים ליצור מסד נתונים - מציג את השגיאה הזו 
-//The ConnectionString property has not been initialized.

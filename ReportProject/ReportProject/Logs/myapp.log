@@ -1,0 +1,11 @@
+2025-04-01 23:18:52.7826 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-01 23:18:52.8036 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-01 23:18:52.8036 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-01 23:18:55.3079 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+2025-04-01 23:19:12.4985 INFO ReportProject.Api.Controllers.ReportController - Getting all reports
+2025-04-01 23:19:12.4985 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve all reports.
+2025-04-01 23:19:12.6026 INFO ReportProject.Service.Service.ReportService - Successfully retrieved 3 reports.
+2025-04-02 14:47:55.3688 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-02 14:47:55.3847 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-02 14:47:55.3847 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-02 14:48:01.1703 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.

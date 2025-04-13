@@ -12,8 +12,13 @@ namespace ReportProject.Core.DTOs
     {
         public MapperProfile()
         {
-            CreateMap<Employee, EmployeeDTO>().ReverseMap();
+            CreateMap<EmployeeDTO, Employee>(); // מיפוי מ-DTO ל-Entity
+            CreateMap<Employee, EmployeeDTO>()
+                .ForMember(dest => dest.Password, opt => opt.Ignore());
+            CreateMap<Report, ReportDTO>().ReverseMap();
 
+            // מיפוי חדש עבור תגובות GET של עובדים עם שם קצר יותר
+            CreateMap<Employee, EmployeeGetDTO>();
         }
     }
 }

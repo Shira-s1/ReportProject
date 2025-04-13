@@ -8,8 +8,9 @@ namespace ReportProject.Core.Enum
 {
     public enum Absence//העדרות בעקבות:
     {
-        vacation=1,
-        disease=2
+        work=1,
+        vacation=2,
+        disease=3
 
     }
 }

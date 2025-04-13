@@ -15,8 +15,7 @@ namespace ReportProject.Data
     public class DataContext: DbContext
     {
         public DbSet<Employee> empList { get; set; }
-        public DbSet<EntryAndExit> enterAndExitList { get; set; }
-        public DbSet<Vacations> vacationsList { get; set; }
+        public DbSet<Report> reportsList { get; set; }
         
         private readonly IConfiguration _configuration;
         public DataContext(IConfiguration configuration)
@@ -26,10 +25,11 @@ namespace ReportProject.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             //  optionBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Data_db")
-           // optionBuilder.UseSqlServer(@"Server=(localdb)\ProjectModels;Database=Data_db")
-           //LogTo(Console.WriteLine, LogLevel.Information);
+            // optionBuilder.UseSqlServer(@"Server=(localdb)\ProjectModels;Database=Data_db")
+            //LogTo(Console.WriteLine, LogLevel.Information);
             // if (!optionBuilder.IsConfigured)
-             optionBuilder.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
+            // optionBuilder.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
+            optionBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));//Configuration
         }
     }
 }

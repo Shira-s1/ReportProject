@@ -1,0 +1,103 @@
+2025-04-03 01:36:58.0016 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 01:37:02.5586 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 01:37:03.0159 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 01:37:06.7015 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+2025-04-03 01:37:49.0140 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/10
+2025-04-03 01:37:49.0140 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 10
+2025-04-03 01:37:49.1359 WARN ReportProject.Service.Service.EmployeeService - Employee with ID 10 not found in the database.
+2025-04-03 01:37:49.1359 WARN ReportProject.Api.Controllers.EmployeeController - Employee with ID 10 not found.
+2025-04-03 01:55:11.4151 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 01:55:11.4151 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 01:55:11.4151 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 01:55:15.1373 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+2025-04-03 01:55:31.1793 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/120
+2025-04-03 01:55:31.1793 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 120
+2025-04-03 01:55:31.2714 WARN ReportProject.Service.Service.EmployeeService - Employee with ID 120 not found in the database.
+2025-04-03 01:55:31.2714 WARN ReportProject.Api.Controllers.EmployeeController - Employee with ID 120 not found.
+2025-04-03 01:59:18.9831 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 01:59:19.0001 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 01:59:19.0001 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 01:59:20.9621 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+2025-04-03 02:04:17.6572 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 02:04:17.6724 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 02:04:17.6724 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 02:04:19.1372 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+2025-04-03 02:04:26.4452 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/1
+2025-04-03 02:04:26.4452 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 1
+2025-04-03 02:04:26.5367 WARN ReportProject.Service.Service.EmployeeService - Employee with ID 1 not found in the database.
+2025-04-03 02:04:26.5367 WARN ReportProject.Api.Controllers.EmployeeController - Employee with ID 1 not found.
+2025-04-03 02:12:35.1487 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/1
+2025-04-03 02:12:35.1641 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 1
+2025-04-03 02:12:36.5995 WARN ReportProject.Service.Service.EmployeeService - Employee with ID 1 not found in the database.
+2025-04-03 02:12:36.5995 WARN ReportProject.Api.Controllers.EmployeeController - Employee with ID 1 not found.
+2025-04-03 02:13:00.2894 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/1
+2025-04-03 02:13:00.3067 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 1
+2025-04-03 02:13:01.7561 WARN ReportProject.Service.Service.EmployeeService - Employee with ID 1 not found in the database.
+2025-04-03 02:13:01.7561 WARN ReportProject.Api.Controllers.EmployeeController - Employee with ID 1 not found.
+2025-04-03 02:18:41.2948 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/1
+2025-04-03 02:18:41.3074 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 02:43:58.1970 INFO ReportProject.Api.Controllers.ReportController - Getting all reports
+2025-04-03 02:43:58.2305 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve all reports.
+2025-04-03 02:43:59.5397 INFO ReportProject.Service.Service.ReportService - Successfully retrieved 3 reports.
+2025-04-03 02:44:30.3214 INFO ReportProject.Api.Controllers.ReportController - Request received: PUT /api/Report/11
+2025-04-03 02:44:30.5790 INFO ReportProject.Api.Controllers.ReportController - Change in 11 report.
+2025-04-03 02:44:37.6483 INFO ReportProject.Api.Controllers.ReportController - Getting all reports
+2025-04-03 02:44:37.6649 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve all reports.
+2025-04-03 02:44:37.7404 INFO ReportProject.Service.Service.ReportService - Successfully retrieved 3 reports.
+2025-04-03 02:44:43.3673 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 02:44:43.3673 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 02:44:43.3821 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 02:44:43.4780 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+2025-04-03 17:30:02.1761 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 17:36:08.1668 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: as
+2025-04-03 17:36:09.7767 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 17:40:02.6700 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: as
+2025-04-03 17:40:04.1582 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 17:42:53.6535 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: as
+2025-04-03 21:49:29.7941 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-03 21:49:31.3543 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 21:51:37.1668 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-03 21:51:37.2148 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 21:56:39.5419 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-03 21:56:39.6362 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 22:04:06.6391 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: op
+2025-04-03 22:04:07.9949 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 22:11:20.8855 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: op
+2025-04-03 22:11:22.4181 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 22:18:44.1067 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 22:18:44.1246 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 22:18:44.1246 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 22:18:45.5802 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 7 employees from the database.
+2025-04-03 22:52:46.2606 INFO ReportProject.Api.Controllers.EmployeeController - Request received: POST /api/Employee
+2025-04-03 22:52:46.3867 INFO ReportProject.Service.Service.EmployeeService - Starting to create new employee
+2025-04-03 22:52:48.1596 INFO ReportProject.Service.Service.EmployeeService - Successfully created employee with ID 27 in the database.
+2025-04-03 22:52:59.7760 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-03 22:52:59.7760 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-03 22:52:59.7760 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-03 22:53:00.3990 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 8 employees from the database.
+2025-04-03 23:07:31.0142 INFO ReportProject.Api.Controllers.ReportController - Getting all reports
+2025-04-03 23:07:31.0142 INFO ReportProject.Service.Service.ReportService - Attempting to retrieve all reports.
+2025-04-03 23:07:31.0750 INFO ReportProject.Service.Service.ReportService - Successfully retrieved 3 reports.
+2025-04-03 23:14:28.1219 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-03 23:14:29.6984 ERROR ReportProject.Api.Middleware.ErrorMiddleware - -------------Error occurred.------------
+2025-04-03 23:38:00.2625 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-03 23:38:02.0950 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-03 23:42:39.5286 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-03 23:42:50.3884 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-03 23:45:05.2923 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-03 23:45:07.5178 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-03 23:46:36.4507 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-03 23:46:36.4507 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-03 23:46:37.7593 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-03 23:47:08.4637 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-03 23:47:08.4637 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: werr
+2025-04-03 23:47:08.4965 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: werr
+2025-04-03 23:48:46.1893 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-03 23:48:46.2058 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: werr
+2025-04-03 23:48:48.4070 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: werr
+2025-04-03 23:49:24.0413 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-03 23:49:24.0579 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: werr
+2025-04-03 23:49:26.1567 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: werr
+2025-04-03 23:50:35.5038 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-03 23:50:35.5287 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-03 23:51:15.4958 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1

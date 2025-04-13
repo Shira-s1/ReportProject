@@ -67,16 +67,13 @@ namespace ReportProject.Data.Migrations
                     b.ToTable("empList");
                 });
 
-            modelBuilder.Entity("ReportProject.Core.Entities.EntryAndExit", b =>
+            modelBuilder.Entity("ReportProject.Core.Entities.Report", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ReportId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateOnly>("ClockInDate")
-                        .HasColumnType("date");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReportId"));
 
                     b.Property<TimeSpan>("ClockInTime")
                         .HasColumnType("time");
@@ -84,18 +81,8 @@ namespace ReportProject.Data.Migrations
                     b.Property<TimeSpan>("ClockOutTime")
                         .HasColumnType("time");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("enterAndExitList");
-                });
-
-            modelBuilder.Entity("ReportProject.Core.Entities.Vacations", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("EmpId")
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateOnly>("EndtDate")
                         .HasColumnType("date");
@@ -106,12 +93,27 @@ namespace ReportProject.Data.Migrations
                     b.Property<DateOnly>("startDate")
                         .HasColumnType("date");
 
-                    b.Property<int>("sumOdDays")
-                        .HasColumnType("int");
+                    b.HasKey("ReportId");
 
-                    b.HasKey("Id");
+                    b.HasIndex("EmpId");
 
-                    b.ToTable("vacationsList");
+                    b.ToTable("reportsList");
+                });
+
+            modelBuilder.Entity("ReportProject.Core.Entities.Report", b =>
+                {
+                    b.HasOne("ReportProject.Core.Entities.Employee", "Employee")
+                        .WithMany("reportLst")
+                        .HasForeignKey("EmpId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("ReportProject.Core.Entities.Employee", b =>
+                {
+                    b.Navigation("reportLst");
                 });
 #pragma warning restore 612, 618
         }

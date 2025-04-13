@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject\\ReportProject.Api.csproj": {}
+    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject\\ReportProject.Api.csproj": {}
   },
   "projects": {
-    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
+    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj",
+        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj",
         "projectName": "ReportProject.Core",
-        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj",
+        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\obj\\",
+        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,14 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -107,14 +115,14 @@
         }
       }
     },
-    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj": {
+    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj",
+        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj",
         "projectName": "ReportProject.Data",
-        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj",
+        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\obj\\",
+        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,8 +143,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
-                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj"
+              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
+                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj"
               }
             }
           }
@@ -160,6 +168,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -214,14 +230,14 @@
         }
       }
     },
-    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj": {
+    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj",
+        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj",
         "projectName": "ReportProject.Service",
-        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj",
+        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Service\\obj\\",
+        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -242,11 +258,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
-                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj"
+              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
+                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj"
               },
-              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj": {
-                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj"
+              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj": {
+                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj"
               }
             }
           }
@@ -270,6 +286,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -324,14 +348,14 @@
         }
       }
     },
-    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject\\ReportProject.Api.csproj": {
+    "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject\\ReportProject.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject\\ReportProject.Api.csproj",
+        "projectUniqueName": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject\\ReportProject.Api.csproj",
         "projectName": "ReportProject.Api",
-        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject\\ReportProject.Api.csproj",
+        "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject\\ReportProject.Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject\\obj\\",
+        "outputPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -352,14 +376,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
-                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj"
+              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj": {
+                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Core\\ReportProject.Core.csproj"
               },
-              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj": {
-                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj"
+              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj": {
+                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Data\\ReportProject.Data.csproj"
               },
-              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj": {
-                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj"
+              "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj": {
+                "projectPath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject.Service\\ReportProject.Service.csproj"
               }
             }
           }
@@ -383,6 +407,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

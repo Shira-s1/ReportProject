@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReportProject.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27acbbc09f4f39deda2bd403724273270f94a58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2aa200d75cc3cadbe30bfca150a76bfe8c837b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReportProject.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReportProject.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

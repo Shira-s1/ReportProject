@@ -1,0 +1,33 @@
+2025-04-04 00:22:29.5885 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:22:29.6061 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:22:30.9317 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:33:42.8228 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:33:42.8394 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:33:44.4386 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:37:38.8870 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:37:38.9014 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:37:40.4701 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:38:21.1378 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-04 00:38:21.1582 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: werr
+2025-04-04 00:38:22.9940 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: werr
+2025-04-04 00:38:51.8857 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:38:51.8857 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:38:51.9235 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:38:57.6680 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-04 00:38:57.6680 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: werr
+2025-04-04 00:38:57.7454 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: werr
+2025-04-04 00:47:21.2524 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:47:21.2696 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:47:22.6246 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:51:03.8574 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:51:03.8715 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:51:05.1909 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:54:36.7046 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:54:36.7181 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:54:38.1122 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-04 00:59:13.2323 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: rli1
+2025-04-04 00:59:13.2493 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: rli1
+2025-04-04 00:59:15.5121 WARN ReportProject.Api.Controllers.AuthController - Authentication failed for user: rli1
+2025-04-04 00:59:31.0102 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-04 00:59:31.0102 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-04 00:59:31.4219 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
