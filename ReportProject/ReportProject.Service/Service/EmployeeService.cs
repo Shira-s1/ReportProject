@@ -215,8 +215,11 @@ namespace ReportProject.Service.Service
             // טיפול בסיסמה
             if (!string.IsNullOrEmpty(employee.Password) && employee.Password != existingEmployee.Password)
             {
-                existingEmployee.Password = BCrypt.Net.BCrypt.HashPassword(employee.Password);
+                //existingEmployee.Password = BCrypt.Net.BCrypt.HashPassword(employee.Password);
+                // הצפנת הסיסמה החדשה באמצעות PasswordHasher
+                existingEmployee.Password = _passwordHasher.HashPassword(existingEmployee, employee.Password);
             }
+        
             var incomingReports = employee.reportLst ?? new List<Report>();
             var existingReports = existingEmployee.reportLst.ToList();
 

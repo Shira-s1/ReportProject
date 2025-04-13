@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1nxHzx+CuZo=",
+  "dgSpecHash": "eQCzBx2Tb7A=",
   "success": true,
-  "projectFilePath": "C:\\תכנות\\שנה ב\\Dot Net\\ReportProject1\\ReportProject\\ReportProject\\ReportProject.Api.csproj",
+  "projectFilePath": "C:\\תכנות\\שנה ב\\Dot Net\\ניסיון\\ReportProject\\ReportProject\\ReportProject\\ReportProject.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

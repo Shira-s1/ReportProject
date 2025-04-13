@@ -85,8 +85,7 @@
               "RelativeToolTip": "ReportProject.Core\\Interfaces\\IEmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:21:19.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:21:19.806Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "ReportProject.Service\\Service\\EmployeeService.cs",
               "ViewState": "AgIAAN0AAAAAAAAAAAAAwPYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:13:52.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:13:52.541Z"
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "RelativeToolTip": "ReportProject\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAAIBAAAAAAAAAAAgwOoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T10:08:59.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T10:08:59.503Z"
             },
             {
               "$type": "Document",
@@ -124,18 +121,16 @@
               "RelativeToolTip": "ReportProject\\Controllers\\PasswordFixController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:42:18.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T20:42:18.701Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dbo.empList [Data]",
+              "Title": "dbo.empList.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.empList.sql",
-              "ToolTip": "dbo.empList [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.empList.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-06T20:37:59.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T20:37:59.466Z"
             },
             {
               "$type": "Document",
@@ -147,8 +142,7 @@
               "RelativeToolTip": "ReportProject.Data\\Migrations\\20250406203420_a1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:34:20.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T20:34:20.509Z"
             },
             {
               "$type": "Document",
@@ -184,8 +178,7 @@
               "RelativeToolTip": "ReportProject\\Program.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAowLgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:52:00.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:52:00.288Z"
             },
             {
               "$type": "Document",
@@ -197,8 +190,7 @@
               "RelativeToolTip": "ReportProject\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-03T21:47:55.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T21:47:55.498Z"
             },
             {
               "$type": "Document",
