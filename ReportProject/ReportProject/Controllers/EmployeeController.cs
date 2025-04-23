@@ -13,7 +13,7 @@ namespace ReportProject.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [AllowAnonymous]
+    //[AllowAnonymous]
     [Authorize]
     public class EmployeeController : ControllerBase
     {
@@ -270,6 +270,7 @@ namespace ReportProject.Api.Controllers
 
         // DELETE api/<@try>/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "ManagerOnly")]//הרשאה - רק מנהל יכול למחוק עובד
         public async Task<IActionResult> Delete(int id)
         {
             _logger.LogInformation($"Request received: DELETE /api/Employee/{id}");

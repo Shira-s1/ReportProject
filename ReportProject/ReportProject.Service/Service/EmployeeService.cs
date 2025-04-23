@@ -275,26 +275,97 @@ namespace ReportProject.Service.Service
         /// <param name="userName"></param>
         /// <param name="password"></param>
         /// <returns></returns>
+        //public async Task<Employee> AuthenticateAsync(string userName, string password)
+        //{
+        //    var employee = await _dataContext.empList.FirstOrDefaultAsync(e => e.UserName == userName);
+
+        //    if (employee == null)
+        //    {
+        //        return null;
+        //    }
+
+        //    // אימות הסיסמה באמצעות PasswordHasher
+        //    var verificationResult = _passwordHasher.VerifyHashedPassword(employee, employee.Password, password);
+
+        //    if (verificationResult == PasswordVerificationResult.Success)
+        //    {
+        //        return employee;
+        //    }
+
+        //    return null;
+        //}
+        //public async Task<Employee> AuthenticateAsync(string userName, string password)
+        //{
+        //    var employee = await _dataContext.empList.FirstOrDefaultAsync(e => e.UserName == userName);
+
+        //    if (employee == null)
+        //    {
+        //        return null;
+        //    }
+
+        //    if (BCrypt.Net.BCrypt.Verify(password, employee.Password))
+        //    {
+        //        return employee;
+        //    }
+
+        //    return null;
+        //}
+
+        //public async Task<Employee> AuthenticateAsync(string userName, string password)
+        //{
+        //    _logger.LogInformation("Attempting to authenticate user: {UserName}", userName);
+
+        //    try
+        //    {
+        //        var employee = await _dataContext.empList.FirstOrDefaultAsync(e => e.UserName == userName);
+
+        //        if (employee == null)
+        //        {
+        //            _logger.LogWarning("Authentication failed: User '{UserName}' not found.", userName);
+        //            return null;
+        //        }
+
+        //        var verificationResult = _passwordHasher.VerifyHashedPassword(employee, employee.Password, password);
+
+        //        if (verificationResult == PasswordVerificationResult.Success)
+        //        {
+        //            _logger.LogInformation("Authentication successful for user: {UserName}", userName);
+        //            return employee;
+        //        }
+        //        else
+        //        {
+        //            _logger.LogWarning("Authentication failed: Invalid password for user '{UserName}'.", userName);
+        //            return null;
+        //        }
+        //    }
+        //    catch (global::System.Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Error during authentication for user: {UserName}", userName);
+        //        throw;
+        //    }
+        //}
         public async Task<Employee> AuthenticateAsync(string userName, string password)
         {
+            _logger.LogInformation("Attempting to authenticate user: {UserName}", userName);
+
             var employee = await _dataContext.empList.FirstOrDefaultAsync(e => e.UserName == userName);
 
             if (employee == null)
             {
+                _logger.LogWarning("Authentication failed: User '{UserName}' not found.", userName);
                 return null;
             }
 
-            // אימות הסיסמה באמצעות PasswordHasher
             var verificationResult = _passwordHasher.VerifyHashedPassword(employee, employee.Password, password);
 
             if (verificationResult == PasswordVerificationResult.Success)
             {
+                _logger.LogInformation("Authentication successful for user: {UserName}", userName);
                 return employee;
             }
 
+            // אם האימות נכשל, נחזיר null בלי לוג מפורש נוסף על סיסמה שגויה
             return null;
         }
-
-
     }
 }

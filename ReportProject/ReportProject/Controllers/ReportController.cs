@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ReportProject.Core.DTOs;
 using ReportProject.Core.Entities;
@@ -11,6 +12,7 @@ namespace ReportProject.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ReportController : ControllerBase
     {
         private readonly IReportService _reportService;
@@ -25,6 +27,7 @@ namespace ReportProject.Api.Controllers
         }
         // GET: api/<ReportController>
         [HttpGet]
+        [Authorize(Policy = "ManagerOnly")]
         public async Task<ActionResult<List<ReportDTO>>> Get()
         {
             try
@@ -44,6 +47,7 @@ namespace ReportProject.Api.Controllers
 
         // GET api/<ReportController>/5
         [HttpGet("{id}")]
+        [Authorize(Policy = "ManagerOnly")]
         public async Task<ActionResult<ReportDTO>> Get(int id)
         {
             _logger.LogInformation($"Request received: GET /api/Report/{id}");
@@ -107,6 +111,7 @@ namespace ReportProject.Api.Controllers
 
         // DELETE api/<ReportController>/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "ManagerOnly")]
         public async Task<IActionResult> Delete(int id)
         {
             _logger.LogInformation($"Request received: DELETE /api/Report/{id}");

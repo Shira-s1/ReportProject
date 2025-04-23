@@ -9,3 +9,4 @@
 2025-04-02 14:47:55.3847 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
 2025-04-02 14:47:55.3847 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
 2025-04-02 14:48:01.1703 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 6 employees from the database.
+${basedir}/Logs/myapp-${shortdate}.log

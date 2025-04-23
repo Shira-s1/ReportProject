@@ -1,0 +1,14 @@
+2025-04-14 02:08:29.2996 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: werr
+2025-04-14 02:08:29.3180 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: werr
+2025-04-14 02:08:30.6879 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: werr
+2025-04-14 02:16:04.8454 INFO ReportProject.Api.Controllers.AuthController - Login attempt for user: eli1
+2025-04-14 02:16:04.8566 INFO ReportProject.Api.Controllers.AuthController - Attempting to authenticate user: eli1
+2025-04-14 02:16:06.4346 ERROR ReportProject.Api.Controllers.AuthController - Error during login for user: eli1
+2025-04-14 02:30:34.5141 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee
+2025-04-14 02:30:34.5141 INFO ReportProject.Api.Controllers.EmployeeController - Getting all employees
+2025-04-14 02:30:34.5278 INFO ReportProject.Service.Service.EmployeeService - Starting to retrieve all employees.
+2025-04-14 02:30:34.6946 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved 8 employees from the database.
+2025-04-14 02:30:58.4863 INFO ReportProject.Api.Controllers.EmployeeController - Request received: GET /api/Employee/6
+2025-04-14 02:30:58.4970 INFO ReportProject.Service.Service.EmployeeService - Attempting to retrieve employee with ID: 6
+2025-04-14 02:30:58.6432 INFO ReportProject.Service.Service.EmployeeService - Successfully retrieved employee with ID 6 from the database.
+2025-04-14 02:30:58.6432 INFO ReportProject.Api.Controllers.EmployeeController - Successfully retrieved employee with ID 6.
