@@ -44,14 +44,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "ReportProject.Core.Entities.Employee",
+        "Name": "createDto",
+        "Type": "ReportProject.Core.DTOs.CreateEmployeeDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ReportProject.Core.Entities.Employee",
+        "Type": "ReportProject.Core.DTOs.EmployeeDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -101,8 +101,8 @@
         "IsRequired": true
       },
       {
-        "Name": "employee",
-        "Type": "ReportProject.Core.Entities.Employee",
+        "Name": "updateDto",
+        "Type": "ReportProject.Core.DTOs.CreateEmployeeDTO",
         "IsRequired": true
       }
     ],
@@ -134,7 +134,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[ReportProject.Core.DTOs.ReportDTO, ReportProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[ReportProject.Core.DTOs.ReportWithEmployeeIdDTO, ReportProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -152,6 +152,11 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
       {
         "Name": "reportDto",
         "Type": "ReportProject.Core.DTOs.ReportDTO",

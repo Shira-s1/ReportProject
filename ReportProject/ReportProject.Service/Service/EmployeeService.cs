@@ -40,21 +40,40 @@ namespace ReportProject.Service.Service
             _logger.LogInformation($"Successfully retrieved {employees.Count} employees from the database.");
             return _mapper.Map<List<EmployeeGetDTO>>(employees);
         }
-        public async Task<EmployeeGetDTO> GetAsync(int id)
+
+
+
+        public async Task<Employee> GetEmployeeByIdAsync(int id)
         {
-            _logger.LogInformation($"Attempting to retrieve employee with ID: {id}");
-            // var emp = await _dataContext.empList.FirstOrDefaultAsync(e => e.Id == id);
-            var employee = await _dataContext.empList
-                  .Include(e => e.reportLst)
-                  .FirstOrDefaultAsync(e => e.Id == id);
-            if (employee == null)
+            _logger.LogInformation($"Attempting to retrieve employee entity with ID: {id} including reports");
+            var employeeEntity = await _dataContext.empList
+                .Include(e => e.reportLst) // **הוסף Include כדי לטעון את רשימת הדיווחים**
+                .FirstOrDefaultAsync(e => e.Id == id);
+            if (employeeEntity == null)
             {
-                _logger.LogWarning($"Employee with ID {id} not found in the database.");
+                _logger.LogWarning($"Employee entity with ID: {id} not found in the database.");
                 return null;
             }
-            _logger.LogInformation($"Successfully retrieved employee with ID {id} from the database.");
-            return _mapper.Map<EmployeeGetDTO>(employee);
+            _logger.LogInformation($"Successfully retrieved employee entity with ID: {id} including reports.");
+            return employeeEntity;
         }
+
+        //ניסוי גט
+        //public async Task<EmployeeGetDTO> GetAsync(int id)
+        //{
+        //    _logger.LogInformation($"Attempting to retrieve employee with ID: {id}");
+        //    // var emp = await _dataContext.empList.FirstOrDefaultAsync(e => e.Id == id);
+        //    var employee = await _dataContext.empList
+        //          .Include(e => e.reportLst)
+        //          .FirstOrDefaultAsync(e => e.Id == id);
+        //    if (employee == null)
+        //    {
+        //        _logger.LogWarning($"Employee with ID {id} not found in the database.");
+        //        return null;
+        //    }
+        //    _logger.LogInformation($"Successfully retrieved employee with ID {id} from the database.");
+        //    return _mapper.Map<EmployeeGetDTO>(employee);
+        //}
         //public async Task<Employee> PostAsync(Employee employee)//הוספה
         //{
         //    if (employee == null)
@@ -159,99 +178,128 @@ namespace ReportProject.Service.Service
         //    _logger.LogInformation($"Successfully updated employee with ID {employee.Id} in the database.");
         //    await _dataContext.SaveChangesAsync();
         //}///לפני השינוי למחלקה המקורית בלי הדיטיאוו
-        public async Task<Employee> PostAsync(Employee employee)
+
+        public async Task<Employee> GetEmployeeByUserNameAsync(string userName)
         {
-            _logger.LogInformation($"Starting to create new employee");
+            return await _dataContext.empList.FirstOrDefaultAsync(e => e.UserName == userName);
+        }
 
-            if (employee == null)
-            {
-                throw new Exception("Employee is null");
-            }
-
-            if (string.IsNullOrEmpty(employee.UserName) || string.IsNullOrEmpty(employee.Password))
-            {
-                throw new Exception("Username and password are required for new employees.");
-            }
-
-            // הצפנת הסיסמה
-            employee.Password = _passwordHasher.HashPassword(employee, employee.Password);
-           // employee.Password = BCrypt.Net.BCrypt.HashPassword(employee.Password);
-
+        public async Task<Employee> PostEmployeeAsync(Employee employee)
+        {
+            _logger.LogInformation($"Attempting to add new employee: {employee.FirstName} {employee.LastName}");
             _dataContext.empList.Add(employee);
             await _dataContext.SaveChangesAsync();
-
-            _logger.LogInformation($"Successfully created employee with ID {employee.Id} in the database.");
+            _logger.LogInformation($"Successfully added employee with ID: {employee.Id}");
             return employee;
         }
 
-        public async Task PutAsync(int id, Employee employee)
+
+        //שינוי פוסט
+        //public async Task<Employee> PostAsync(Employee employee)
+        //{
+        //    _logger.LogInformation($"Starting to create new employee");
+
+        //    if (employee == null)
+        //    {
+        //        throw new Exception("Employee is null");
+        //    }
+
+        //    if (string.IsNullOrEmpty(employee.UserName) || string.IsNullOrEmpty(employee.Password))
+        //    {
+        //        throw new Exception("Username and password are required for new employees.");
+        //    }
+
+        //    // הצפנת הסיסמה
+        //    employee.Password = _passwordHasher.HashPassword(employee, employee.Password);
+        //   // employee.Password = BCrypt.Net.BCrypt.HashPassword(employee.Password);
+
+        //    _dataContext.empList.Add(employee);
+        //    await _dataContext.SaveChangesAsync();
+
+        //    _logger.LogInformation($"Successfully created employee with ID {employee.Id} in the database.");
+        //    return employee;
+        //}
+
+
+        public async Task PutEmployeeAsync(Employee employee) // שם הפונקציה שונה
         {
-            _logger.LogInformation($"Starting to update employee with ID {id}");
-
-            if (employee == null)
-            {
-                throw new Exception("Employee is null");
-            }
-
-            var existingEmployee = await _dataContext.empList.FindAsync(id);
-            if (existingEmployee == null)
-            {
-                throw new KeyNotFoundException($"Employee with id {id} not found");
-            }
-
-            // עדכון השדות
-            // _dataContext.Entry(existingEmployee).CurrentValues.SetValues(employee);
-            existingEmployee.UserName = employee.UserName;
-            existingEmployee.Status = employee.Status;
-
-            existingEmployee.FirstName = employee.FirstName;
-            existingEmployee.LastName = employee.LastName;
-            existingEmployee.Phone = employee.Phone;
-            existingEmployee.Age = employee.Age;
-            existingEmployee.Salary = employee.Salary;
-            existingEmployee.Seniority = employee.Seniority;
-            
-
-            // טיפול בסיסמה
-            if (!string.IsNullOrEmpty(employee.Password) && employee.Password != existingEmployee.Password)
-            {
-                //existingEmployee.Password = BCrypt.Net.BCrypt.HashPassword(employee.Password);
-                // הצפנת הסיסמה החדשה באמצעות PasswordHasher
-                existingEmployee.Password = _passwordHasher.HashPassword(existingEmployee, employee.Password);
-            }
-        
-            var incomingReports = employee.reportLst ?? new List<Report>();
-            var existingReports = existingEmployee.reportLst.ToList();
-
-            // מחיקת דיווחים שהוסרו
-            foreach (var existingReport in existingReports)
-            {
-                if (!incomingReports.Any(r => r.ReportId == existingReport.ReportId && r.ReportId != 0))
-                {
-                    _dataContext.reportsList.Remove(existingReport);
-                }
-            }
-
-            // הוספה או עדכון דיווחים קיימים
-            foreach (var incomingReport in incomingReports)
-            {
-                var existingReport = existingReports.FirstOrDefault(r => r.ReportId == incomingReport.ReportId && r.ReportId != 0);
-
-                if (existingReport != null)
-                {
-                    _dataContext.Entry(existingReport).CurrentValues.SetValues(incomingReport);
-                }
-                else
-                {
-                    incomingReport.EmpId = id; // קישור הדיווח לעובד הנוכחי
-                    _dataContext.reportsList.Add(incomingReport);
-                }
-            }
-            _dataContext.Entry(existingEmployee).State = EntityState.Modified;
+            _logger.LogInformation($"Attempting to update employee with ID: {employee.Id}, Name: {employee.FirstName} {employee.LastName}");
+            _dataContext.empList.Update(employee);
             await _dataContext.SaveChangesAsync();
-
-            _logger.LogInformation($"Successfully updated employee with ID {id} in the database.");
+            _logger.LogInformation($"Successfully updated employee with ID: {employee.Id}");
         }
+
+
+
+        //**************
+        //public async Task PutAsync(int id, Employee employee)
+        //{
+        //    _logger.LogInformation($"Starting to update employee with ID {id}");
+
+        //    if (employee == null)
+        //    {
+        //        throw new Exception("Employee is null");
+        //    }
+
+        //    var existingEmployee = await _dataContext.empList.FindAsync(id);
+        //    if (existingEmployee == null)
+        //    {
+        //        throw new KeyNotFoundException($"Employee with id {id} not found");
+        //    }
+
+        //    // עדכון השדות
+        //    // _dataContext.Entry(existingEmployee).CurrentValues.SetValues(employee);
+        //    existingEmployee.UserName = employee.UserName;
+        //    existingEmployee.Status = employee.Status;
+
+        //    existingEmployee.FirstName = employee.FirstName;
+        //    existingEmployee.LastName = employee.LastName;
+        //    existingEmployee.Phone = employee.Phone;
+        //    existingEmployee.Age = employee.Age;
+        //    existingEmployee.Salary = employee.Salary;
+        //    existingEmployee.Seniority = employee.Seniority;
+
+
+        //    // טיפול בסיסמה
+        //    if (!string.IsNullOrEmpty(employee.Password) && employee.Password != existingEmployee.Password)
+        //    {
+        //        //existingEmployee.Password = BCrypt.Net.BCrypt.HashPassword(employee.Password);
+        //        // הצפנת הסיסמה החדשה באמצעות PasswordHasher
+        //        existingEmployee.Password = _passwordHasher.HashPassword(existingEmployee, employee.Password);
+        //    }
+
+        //    var incomingReports = employee.reportLst ?? new List<Report>();
+        //    var existingReports = existingEmployee.reportLst.ToList();
+
+        //    // מחיקת דיווחים שהוסרו
+        //    foreach (var existingReport in existingReports)
+        //    {
+        //        if (!incomingReports.Any(r => r.ReportId == existingReport.ReportId && r.ReportId != 0))
+        //        {
+        //            _dataContext.reportsList.Remove(existingReport);
+        //        }
+        //    }
+
+        //    // הוספה או עדכון דיווחים קיימים
+        //    foreach (var incomingReport in incomingReports)
+        //    {
+        //        var existingReport = existingReports.FirstOrDefault(r => r.ReportId == incomingReport.ReportId && r.ReportId != 0);
+
+        //        if (existingReport != null)
+        //        {
+        //            _dataContext.Entry(existingReport).CurrentValues.SetValues(incomingReport);
+        //        }
+        //        else
+        //        {
+        //            existingEmployee.reportLst.Add(incomingReport);
+        //        }
+        //    }
+        //    _dataContext.Entry(existingEmployee).State = EntityState.Modified;
+        //    await _dataContext.SaveChangesAsync();
+
+        //    _logger.LogInformation($"Successfully updated employee with ID {id} in the database.");
+        //}
+        //***********************
         public async Task DeleteAsync(int id)
         {
             _logger.LogInformation($"Starting to delete employee with ID {id}.");

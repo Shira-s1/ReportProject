@@ -1,16 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ReportProject.Core.Enum;
+﻿using ReportProject.Core.Enum;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReportProject.Core.Entities
+namespace ReportProject.Core.DTOs
 {
-    public class Employee
+    public class CreateEmployeeDTO//post
     {
         public int Id { get; set; }//primary key
         public string FirstName { get; set; }
@@ -26,11 +23,5 @@ namespace ReportProject.Core.Entities
         public string UserName { get; set; }
         public string Password { get; set; }
 
-        [InverseProperty("Employee")]
-        public List<Report> reportLst { get; set; }//רשימת החופשות ושעות העבודה של העובד
-
     }
-
-
 }
-

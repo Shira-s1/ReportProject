@@ -31,5 +31,19 @@ namespace ReportProject.Data
             // optionBuilder.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
             optionBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));//Configuration
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Report>()
+                .Property(r => r.ReportId)
+                .ValueGeneratedOnAdd();
+
+            modelBuilder.Entity<Employee>()
+          .HasIndex(e => e.UserName)
+          .IsUnique();
+
+            
+        }
     }
 }

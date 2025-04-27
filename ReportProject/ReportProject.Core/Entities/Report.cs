@@ -13,10 +13,11 @@ namespace ReportProject.Core.Entities
     {
 
         [Key]
-        public int ReportId { get; set; } // מומלץ שם ברור יותר למפתח ראשי של Report
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int ReportId { get; set; } 
 
-        [ForeignKey("Employee")] // מצביע על נכס הניווט
-        public int EmpId { get; set; }//id of emp (מפתח זר לטבלת Employee)
+        //[ForeignKey("Employee")] // מצביע על נכס הניווט
+        //public int EmpId { get; set; }//id of emp (מפתח זר לטבלת Employee)
         public TimeSpan ClockInTime { get; set; } // שעת כניסה
         public TimeSpan ClockOutTime { get; set; } // שעת יציאה                                                  
         public Absence TypeOfVacation { get; set; }//Type Of Vacation-work/sick/vacation                                                 

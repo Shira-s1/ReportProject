@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ReportProject.Core.DTOs;
 using ReportProject.Core.Entities;
 using ReportProject.Core.Interfaces;
 using ReportProject.Service.Service;
+using System.Security.Claims;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -26,35 +28,92 @@ namespace ReportProject.Api.Controllers
             _logger = logger;
         }
         // GET: api/<ReportController>
+        //[HttpGet]
+        //[Authorize(Policy = "ManagerOnly")]
+        //public async Task<ActionResult<List<ReportDTO>>> Get()
+        //{
+        //    try
+        //    {
+        //        _logger.LogInformation("Getting all reports");
+        //        var employees = await _reportService.GetAsync();
+
+        //        //var employeeDtos = _mapper.Map<List<EmployeeDTO>>(employees);
+        //        return Ok(employees);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Error getting all employees");
+        //        return StatusCode(500, "Internal Server Error");
+        //    }
+        //}
+
+
+        //ניסוי
         [HttpGet]
         [Authorize(Policy = "ManagerOnly")]
-        public async Task<ActionResult<List<ReportDTO>>> Get()
+        public async Task<ActionResult<List<ReportWithEmployeeIdDTO>>> Get()
         {
             try
             {
                 _logger.LogInformation("Getting all reports");
-                var employees = await _reportService.GetAsync();
-
-                //var employeeDtos = _mapper.Map<List<EmployeeDTO>>(employees);
-                return Ok(employees);
+                var reports = await _reportService.GetAsync();
+                var reportDtosWithId = _mapper.Map<List<ReportWithEmployeeIdDTO>>(reports);
+                return Ok(reportDtosWithId);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error getting all employees");
+                _logger.LogError(ex, "Error getting all reports", ex);
                 return StatusCode(500, "Internal Server Error");
             }
         }
 
         // GET api/<ReportController>/5
+        //[HttpGet("{id}")]
+        //[Authorize(Policy = "ManagerOnly")]
+        //public async Task<ActionResult<ReportDTO>> Get(int id)
+        //{
+        //    _logger.LogInformation($"Request received: GET /api/Report/{id}");
+        //    try
+        //    {
+        //        var employee = await _reportService.GetAsync(id);
+        //        return employee == null ? NotFound() : Ok(employee);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, $"Error getting report with id {id}");
+        //        return StatusCode(500, "Internal Server Error");
+        //    }
+        //}
+
+
+
+        //ניסוי גט 
         [HttpGet("{id}")]
-        [Authorize(Policy = "ManagerOnly")]
+        [Authorize(Roles = "Employee, Manager")]
         public async Task<ActionResult<ReportDTO>> Get(int id)
         {
             _logger.LogInformation($"Request received: GET /api/Report/{id}");
             try
             {
-                var employee = await _reportService.GetAsync(id);
-                return employee == null ? NotFound() : Ok(employee);
+                var loggedInUserId = User.FindFirstValue("EmployeeId");
+                var userRole = User.FindFirstValue(ClaimTypes.Role);
+
+                var reportEntity = await _reportService.GetReportByIdAsync(id); // שיטה חדשה בסרוויס
+                _logger.LogInformation($"Logged in EmployeeId: {loggedInUserId}");
+                _logger.LogInformation($"Report EmployeeId: {reportEntity?.Employee?.Id}");
+                _logger.LogInformation($"User Role: {userRole}");
+                if (reportEntity == null)
+                {
+                    return NotFound();
+                }
+
+                if (userRole == "Employee" && reportEntity.Employee?.Id.ToString() != loggedInUserId)
+                {
+                    _logger.LogWarning($"Employee with ID {loggedInUserId} tried to access report with ID {id} belonging to another employee. Forbidden.");
+                    return Forbid(authenticationSchemes: JwtBearerDefaults.AuthenticationScheme);
+                }
+
+                return Ok(_mapper.Map<ReportDTO>(reportEntity));
             }
             catch (Exception ex)
             {
@@ -63,29 +122,81 @@ namespace ReportProject.Api.Controllers
             }
         }
 
-        // POST api/<ReportController>
+
+
+
+        //// POST api/<ReportController>
+        //[HttpPost]
+        //public async Task<ActionResult<ReportDTO>> Post([FromBody] ReportDTO reportDto)
+        //{
+        //    _logger.LogInformation("Request received: Report /api/report");
+
+        //    try
+        //    {
+        //        if (reportDto == null) return BadRequest("Report object cannot be null.");
+        //        var report = _mapper.Map<Report>(reportDto);
+        //        var createdReport = await _reportService.PostAsync(report);
+        //        var createdReportDto = _mapper.Map<ReportDTO>(createdReport);
+        //        return CreatedAtAction(nameof(Get), new { id = createdReportDto.ReportId }, createdReportDto);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Error creating report...");
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
+
+
+        //ניסוי
         [HttpPost]
-        public async Task<ActionResult<ReportDTO>> Post([FromBody] ReportDTO reportDto)
+        public async Task<ActionResult<ReportDTO>> Post(int empId, [FromBody] ReportDTO reportDto)
         {
-            _logger.LogInformation("Request received: Report /api/report");
+            _logger.LogInformation($"Request received: POST /api/employees/{empId}/reports");
 
             try
             {
                 if (reportDto == null) return BadRequest("Report object cannot be null.");
                 var report = _mapper.Map<Report>(reportDto);
-                var createdReport = await _reportService.PostAsync(report);
+
+              
+                var loggedInUserId = User.FindFirstValue("EmployeeId"); // שימוש ב-Claim הספציפי
+                _logger.LogInformation($"Logged in user ID (EmployeeId Claim): {loggedInUserId}");
+
+               
+                var userRole = User.FindFirstValue(ClaimTypes.Role);
+                _logger.LogInformation($"Logged in user role: {userRole}");
+
+                _logger.LogInformation($"empId from URL: {empId}");
+
+                //  הרשאות
+                if (userRole == "Employee")
+                {
+                    if (loggedInUserId != empId.ToString())
+                    {
+                        _logger.LogWarning($"Employee with ID {loggedInUserId} tried to create report for employee ID {empId}. Forbidden.");
+                        return Forbid(authenticationSchemes: JwtBearerDefaults.AuthenticationScheme);
+                    }
+                }
+              
+                var createdReport = await _reportService.PostAsync(empId, report);
                 var createdReportDto = _mapper.Map<ReportDTO>(createdReport);
                 return CreatedAtAction(nameof(Get), new { id = createdReportDto.ReportId }, createdReportDto);
             }
+            catch (ArgumentException ex)
+            {
+                _logger.LogError(ex, $"Error creating report for employee ID {empId}: {ex.Message}");
+                return BadRequest(ex.Message);
+            }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error creating report...");
-                return BadRequest(ex.Message);
+                _logger.LogError(ex, $"Error creating report for employee ID {empId}...");
+                return StatusCode(500, "An error occurred while creating the report.");
             }
         }
 
         // PUT api/<ReportController>/5
         [HttpPut("{id}")]
+        [Authorize(Policy = "ManagerOnly")]
         public async Task<IActionResult> Put(int id, [FromBody] ReportDTO reportDto)
         {
             _logger.LogInformation($"Request received: PUT /api/Report/{id}");
