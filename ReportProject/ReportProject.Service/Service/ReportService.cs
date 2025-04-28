@@ -24,18 +24,6 @@ namespace ReportProject.Service.Service
             _mapper = mapper;
             _logger = logger;
         }
-        //public async Task<List<ReportDTO>> GetAsync()
-        //{
-        //    _logger.LogInformation("Attempting to retrieve all reports.");
-
-        //    var reports = await _dataContext.reportsList
-        //        .ToListAsync();
-
-        //    _logger.LogInformation($"Successfully retrieved {reports.Count} reports.");
-        //    return _mapper.Map<List<ReportDTO>>(reports);
-        //}
-
-        //ניסוי
         public async Task<List<Report>> GetAsync()
         {
             _logger.LogInformation("Attempting to retrieve all reports.");
@@ -47,18 +35,6 @@ namespace ReportProject.Service.Service
             _logger.LogInformation($"Successfully retrieved {reports.Count} reports.");
             return reports;
         }
-
-
-
-
-
-        //public async Task<ReportDTO> GetAsync(int id)
-        //{
-        //    var report = await _dataContext.reportsList
-        //        .FirstOrDefaultAsync(r => r.ReportId == id);
-        //    return _mapper.Map<ReportDTO>(report);
-        //}
-
 
         public async Task<Report> GetReportByIdAsync(int id)
         {
@@ -73,51 +49,6 @@ namespace ReportProject.Service.Service
             return reportEntity;
         }
 
-
-
-        //************************
-        //public async Task<ReportDTO> GetAsync(int id)
-        //{
-        //    _logger.LogInformation($"Attempting to retrieve report with ID: {id}");
-
-        //    var reportEntity = await _dataContext.reportsList
-        //        .FirstOrDefaultAsync(r => r.ReportId == id);
-
-        //    if (reportEntity == null)
-        //    {
-        //        _logger.LogWarning($"Report with ID: {id} not found.");
-        //        return null;
-        //    }
-
-        //    _logger.LogInformation($"Successfully retrieved report with ID: {id}.");
-        //    return _mapper.Map<ReportDTO>(reportEntity);
-        //}
-        //************************
-
-
-        //public async Task<Report> PostAsync(int empId,Report report)//הוספה
-        //{
-        //    if (report == null)
-        //    {
-        //        _logger.LogInformation("The object is null, Enter items");
-        //        throw new Exception("Report is null");
-        //    }
-        //    if (report.EndtDate < report.startDate)
-        //    {
-        //        _logger.LogInformation("The report end date cannot be before the start date.");
-        //        throw new ArgumentException("Fix your dates.");
-        //    }
-        //    //if(report.ClockInTime < report.ClockOutTime)
-        //    //{
-        //    //    _logger.LogInformation("Check-in time is after check-out time.");
-        //    //   // throw new ArgumentException("The end date is less than the start date.");
-        //    //}
-        //    _dataContext.reportsList.Add(report);
-        //    await _dataContext.SaveChangesAsync();
-        //    return report;
-        //}
-
-        //ניסוי
         public async Task<Report> PostAsync(int empId, Report report)
         {
             if (report == null)
@@ -197,11 +128,3 @@ namespace ReportProject.Service.Service
         }
     }
 }
-//{
-//    "reportId": 14,
-//        "clockInTime": "12:00:00",
-//        "clockOutTime": "17:00:00",
-//        "typeOfVacation": 2,
-//        "startDate": "2025-04-23",
-//        "endtDate": "2025-04-23"
-//      }

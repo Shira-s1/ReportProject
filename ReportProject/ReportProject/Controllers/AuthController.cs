@@ -23,40 +23,6 @@ namespace ReportProject.Api.Controllers
             _employeeService = employeeService;
         }
 
-        //[HttpPost("login")]
-        //public async Task<IActionResult> Login([FromBody] EmployeeLoginRequestDto model)
-        //{
-        //    _logger.LogInformation($"Login attempt for user: {model?.UserName}");
-
-        //    if (string.IsNullOrEmpty(model?.UserName) || string.IsNullOrEmpty(model?.Password))
-        //    {
-        //        return BadRequest("Username and password are required.");
-        //    }
-
-        //    try
-        //    {
-        //        _logger.LogInformation($"Attempting to authenticate user: {model.UserName}");
-        //        var employee = await _employeeService.AuthenticateAsync(model.UserName, model.Password);
-
-        //        if (employee == null)
-        //        {
-        //            _logger.LogWarning($"Authentication failed for user: {model.UserName}");
-        //            return Unauthorized("Invalid username or password.");
-        //        }
-
-        //        _logger.LogInformation($"User {model.UserName} authenticated successfully.");
-        //        var token = GenerateToken(employee);
-        //        _logger.LogInformation($"JWT token generated for user: {model.UserName}");
-        //        return Ok(new { Token = token });
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, $"Error during login for user: {model?.UserName}");
-        //        return StatusCode(500, $"Internal server error during login. Exception: {ex.Message}");
-        //    }
-        //}
-
-
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] EmployeeLoginRequestDto model)
         {

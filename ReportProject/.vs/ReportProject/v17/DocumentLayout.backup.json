@@ -3,28 +3,68 @@
   "WorkspaceRootPath": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AF7205A-EFA8-49C3-B88A-CC5158DCFDFD}|ReportProject.Service\\ReportProject.Service.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.service\\service\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AF7205A-EFA8-49C3-B88A-CC5158DCFDFD}|ReportProject.Service\\ReportProject.Service.csproj|solutionrelative:reportproject.service\\service\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AF7205A-EFA8-49C3-B88A-CC5158DCFDFD}|ReportProject.Service\\ReportProject.Service.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.service\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AF7205A-EFA8-49C3-B88A-CC5158DCFDFD}|ReportProject.Service\\ReportProject.Service.csproj|solutionrelative:reportproject.service\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7012C2F4-4835-4C2A-B947-C88144B2445A}|ReportProject.Data\\ReportProject.Data.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7012C2F4-4835-4C2A-B947-C88144B2445A}|ReportProject.Data\\ReportProject.Data.csproj|solutionrelative:reportproject.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7012C2F4-4835-4C2A-B947-C88144B2445A}|ReportProject.Data\\ReportProject.Data.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7012C2F4-4835-4C2A-B947-C88144B2445A}|ReportProject.Data\\ReportProject.Data.csproj|solutionrelative:reportproject.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\middleware\\logmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\middleware\\logmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\middleware\\errormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\middleware\\errormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\reportwithemployeeiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,32 +75,16 @@
       "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\reportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject.core\\dtos\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD509E6-63A1-4DC3-9753-C865E20F34B0}|ReportProject.Core\\ReportProject.Core.csproj|solutionrelative:reportproject.core\\dtos\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|c:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\dot net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\reportproject\\reportproject\\reportproject\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{633B49AB-BB88-4423-BC8A-761F0827D368}|ReportProject\\ReportProject.Api.csproj|solutionrelative:reportproject\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.reportsList.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -76,11 +100,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Service\\Service\\ReportService.cs",
+              "RelativeDocumentMoniker": "ReportProject.Service\\Service\\ReportService.cs",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Service\\Service\\ReportService.cs*",
+              "RelativeToolTip": "ReportProject.Service\\Service\\ReportService.cs*",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:21:34.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "ReportProject.Core\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Interfaces\\IReportService.cs*",
+              "RelativeToolTip": "ReportProject.Core\\Interfaces\\IReportService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:19:58.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Program.cs",
+              "RelativeDocumentMoniker": "ReportProject\\Program.cs",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Program.cs",
+              "RelativeToolTip": "ReportProject\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:19:22.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ReportProject\\appsettings.Development.json",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\appsettings.Development.json",
+              "RelativeToolTip": "ReportProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T12:19:17.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LogMiddleware.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Middleware\\LogMiddleware.cs",
+              "RelativeDocumentMoniker": "ReportProject\\Middleware\\LogMiddleware.cs",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Middleware\\LogMiddleware.cs",
+              "RelativeToolTip": "ReportProject\\Middleware\\LogMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:19:11.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorMiddleware.cs",
+              "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Middleware\\ErrorMiddleware.cs",
+              "RelativeDocumentMoniker": "ReportProject\\Middleware\\ErrorMiddleware.cs",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Middleware\\ErrorMiddleware.cs",
+              "RelativeToolTip": "ReportProject\\Middleware\\ErrorMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:19:09.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ReportWithEmployeeIdDTO.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\ReportWithEmployeeIdDTO.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\DTOs\\ReportWithEmployeeIdDTO.cs",
@@ -93,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "EmployeeGetDTO.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\EmployeeGetDTO.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\DTOs\\EmployeeGetDTO.cs",
@@ -106,37 +212,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ReportController.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "ReportProject\\Controllers\\ReportController.cs",
-              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "ReportProject\\Controllers\\ReportController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAPcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\ReportController.cs*",
+              "RelativeToolTip": "ReportProject\\Controllers\\ReportController.cs*",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T22:55:50.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ReportProject\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ReportProject\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAxwGcAAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "ReportProject\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T21:42:53.851Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "CreateEmployeeDTO.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\CreateEmployeeDTO.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\DTOs\\CreateEmployeeDTO.cs",
@@ -149,33 +251,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\Entities\\Employee.cs",
               "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Entities\\Employee.cs",
               "RelativeToolTip": "ReportProject.Core\\Entities\\Employee.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T22:00:55.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Data\\DataContext.cs",
               "RelativeDocumentMoniker": "ReportProject.Data\\DataContext.cs",
               "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Data\\DataContext.cs",
               "RelativeToolTip": "ReportProject.Data\\DataContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T20:36:02.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Report.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Entities\\Report.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\Entities\\Report.cs",
@@ -192,16 +294,16 @@
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Service\\Service\\EmployeeService.cs",
               "RelativeDocumentMoniker": "ReportProject.Service\\Service\\EmployeeService.cs",
-              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Service\\Service\\EmployeeService.cs",
-              "RelativeToolTip": "ReportProject.Service\\Service\\EmployeeService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowLgAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Service\\Service\\EmployeeService.cs*",
+              "RelativeToolTip": "ReportProject.Service\\Service\\EmployeeService.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T19:54:03.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "ReportDTO.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\ReportDTO.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\DTOs\\ReportDTO.cs",
@@ -214,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "EmployeeDTO.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\EmployeeDTO.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\DTOs\\EmployeeDTO.cs",
@@ -227,29 +329,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Interfaces\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\Interfaces\\IEmployeeService.cs",
-              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Interfaces\\IEmployeeService.cs",
-              "RelativeToolTip": "ReportProject.Core\\Interfaces\\IEmployeeService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAWwCAAAABxAAAAAAAAAA==",
+              "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\Interfaces\\IEmployeeService.cs*",
+              "RelativeToolTip": "ReportProject.Core\\Interfaces\\IEmployeeService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T18:28:33.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "dbo.reportsList [Data]",
+              "DocumentIndex": 21,
+              "Title": "dbo.reportsList.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.reportsList.sql",
-              "ToolTip": "dbo.reportsList [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.reportsList.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-04-24T20:03:42.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "nlog.config",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\nlog.config",
               "RelativeDocumentMoniker": "ReportProject\\nlog.config",
@@ -257,24 +359,25 @@
               "RelativeToolTip": "ReportProject\\nlog.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-24T19:43:50.974Z"
+              "WhenOpened": "2025-04-24T19:43:50.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\MapperProfile.cs",
               "RelativeDocumentMoniker": "ReportProject.Core\\DTOs\\MapperProfile.cs",
               "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject.Core\\DTOs\\MapperProfile.cs",
               "RelativeToolTip": "ReportProject.Core\\DTOs\\MapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T19:31:57.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "dbo.empList.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.empList.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Report_ProjectDB/True/SqlTable/dbo.empList.sql",
@@ -283,13 +386,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "ReportProject\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\\u05EA\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\Dot Net\\\u05E0\u05D9\u05E1\u05D9\u05D5\u05DF1\\ReportProject\\ReportProject\\ReportProject\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "ReportProject\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAFkBAAAAAAAAAAAwwGUBAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T16:02:15.741Z",
               "EditorCaption": ""

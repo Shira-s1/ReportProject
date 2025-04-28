@@ -27,28 +27,7 @@ namespace ReportProject.Api.Controllers
             _mapper = mapper;
             _logger = logger;
         }
-        // GET: api/<ReportController>
-        //[HttpGet]
-        //[Authorize(Policy = "ManagerOnly")]
-        //public async Task<ActionResult<List<ReportDTO>>> Get()
-        //{
-        //    try
-        //    {
-        //        _logger.LogInformation("Getting all reports");
-        //        var employees = await _reportService.GetAsync();
-
-        //        //var employeeDtos = _mapper.Map<List<EmployeeDTO>>(employees);
-        //        return Ok(employees);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "Error getting all employees");
-        //        return StatusCode(500, "Internal Server Error");
-        //    }
-        //}
-
-
-        //ניסוי
+        
         [HttpGet]
         [Authorize(Policy = "ManagerOnly")]
         public async Task<ActionResult<List<ReportWithEmployeeIdDTO>>> Get()
@@ -67,27 +46,7 @@ namespace ReportProject.Api.Controllers
             }
         }
 
-        // GET api/<ReportController>/5
-        //[HttpGet("{id}")]
-        //[Authorize(Policy = "ManagerOnly")]
-        //public async Task<ActionResult<ReportDTO>> Get(int id)
-        //{
-        //    _logger.LogInformation($"Request received: GET /api/Report/{id}");
-        //    try
-        //    {
-        //        var employee = await _reportService.GetAsync(id);
-        //        return employee == null ? NotFound() : Ok(employee);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, $"Error getting report with id {id}");
-        //        return StatusCode(500, "Internal Server Error");
-        //    }
-        //}
-
-
-
-        //ניסוי גט 
+        
         [HttpGet("{id}")]
         [Authorize(Roles = "Employee, Manager")]
         public async Task<ActionResult<ReportDTO>> Get(int id)
@@ -125,29 +84,6 @@ namespace ReportProject.Api.Controllers
 
 
 
-        //// POST api/<ReportController>
-        //[HttpPost]
-        //public async Task<ActionResult<ReportDTO>> Post([FromBody] ReportDTO reportDto)
-        //{
-        //    _logger.LogInformation("Request received: Report /api/report");
-
-        //    try
-        //    {
-        //        if (reportDto == null) return BadRequest("Report object cannot be null.");
-        //        var report = _mapper.Map<Report>(reportDto);
-        //        var createdReport = await _reportService.PostAsync(report);
-        //        var createdReportDto = _mapper.Map<ReportDTO>(createdReport);
-        //        return CreatedAtAction(nameof(Get), new { id = createdReportDto.ReportId }, createdReportDto);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _logger.LogError(ex, "Error creating report...");
-        //        return BadRequest(ex.Message);
-        //    }
-        //}
-
-
-        //ניסוי
         [HttpPost]
         public async Task<ActionResult<ReportDTO>> Post(int empId, [FromBody] ReportDTO reportDto)
         {
