@@ -70,3 +70,39 @@ C:\תכנות\שנה ב\Dot Net\ניסיון1\ReportProject\ReportProject\Report
 C:\תכנות\שנה ב\Dot Net\ניסיון1\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.pdb
 C:\תכנות\שנה ב\Dot Net\ניסיון1\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.genruntimeconfig.cache
 C:\תכנות\שנה ב\Dot Net\ניסיון1\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ref\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.deps.json
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.runtimeconfig.json
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.pdb
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Core.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Core.pdb
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.csproj.AssemblyReference.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.AssemblyInfoInputs.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.AssemblyInfo.cs
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.csproj.CoreCompileInputs.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.sourcelink.json
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportPr.1CBD4694.Up2Date
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\refint\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.pdb
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.genruntimeconfig.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ref\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.deps.json
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.runtimeconfig.json
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Data.pdb
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Core.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\bin\Debug\net9.0\ReportProject.Core.pdb
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.csproj.AssemblyReference.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.AssemblyInfoInputs.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.AssemblyInfo.cs
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.csproj.CoreCompileInputs.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.sourcelink.json
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportPr.1CBD4694.Up2Date
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\refint\ReportProject.Data.dll
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.pdb
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ReportProject.Data.genruntimeconfig.cache
+C:\תכנות\שנה ב\Dot Net\הורדה מגיט- סופי עובד\ReportProject\ReportProject\ReportProject.Data\obj\Debug\net9.0\ref\ReportProject.Data.dll

@@ -125,6 +125,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ReportProject.Api.Controllers.PasswordEncryptionController",
+    "Method": "EncryptPasswords",
+    "RelativePath": "api/PasswordEncryption/encrypt-passwords",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ReportProject.Api.Controllers.ReportController",
     "Method": "Get",
     "RelativePath": "api/Report",

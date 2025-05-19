@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http.HttpResults;
 using BCrypt.Net;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Identity; 
+using Microsoft.AspNetCore.Identity;
 namespace ReportProject.Service.Service
 {
     public class EmployeeService : IEmployeeService
@@ -55,7 +55,7 @@ namespace ReportProject.Service.Service
             _logger.LogInformation($"Successfully retrieved employee entity with ID: {id} including reports.");
             return employeeEntity;
         }
-       
+
         public async Task<Employee> GetEmployeeByUserNameAsync(string userName)
         {
             return await _dataContext.empList.FirstOrDefaultAsync(e => e.UserName == userName);
@@ -118,5 +118,45 @@ namespace ReportProject.Service.Service
             // אם האימות נכשל, נחזיר null בלי לוג מפורש נוסף על סיסמה שגויה
             return null;
         }
+        public async Task EnsureAdminUserExistsAsync()
+        {
+            _logger.LogInformation("Starting to ensure admin user exists.");
+            try
+            {
+                var adminUserName = "admin";
+                var existingAdmin = await _dataContext.empList
+                  .FirstOrDefaultAsync(e => e.UserName == adminUserName);
+
+                if (existingAdmin == null)
+                {
+                    _logger.LogInformation($"Admin user '{adminUserName}' not found. Creating default admin user.");
+                    var adminUser = new Employee
+                    {
+                        UserName = adminUserName,
+                        Password = _passwordHasher.HashPassword(null, "123456"),
+                        FirstName = "Admin",
+                        LastName = "User",
+                        Phone = "123-456-7890", // הוסף ערך עבור Phone
+                        Status = Role.Manager,
+                        Age = 30, // הוסף ערך עבור Age (אם הוא NOT NULL)
+                        Seniority = 1, // הוסף ערך עבור Seniority (אם הוא NOT NULL)
+                        Salary = 50000 // הוסף ערך עבור Salary (אם הוא NOT NULL)
+                    };
+                    _dataContext.empList.Add(adminUser);
+                    await _dataContext.SaveChangesAsync();
+                    _logger.LogInformation($"Default admin user '{adminUserName}' created successfully.");
+                }
+                else
+                {
+                    _logger.LogInformation($"Admin user '{adminUserName}' already exists.");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while ensuring admin user exists."); 
+                throw;
+            }
+        }
     }
+
 }

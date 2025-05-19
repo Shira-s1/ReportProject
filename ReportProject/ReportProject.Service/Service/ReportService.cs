@@ -100,13 +100,13 @@ namespace ReportProject.Service.Service
             existingReport.ClockInTime = reportDto.ClockInTime;
             existingReport.ClockOutTime = reportDto.ClockOutTime;
             existingReport.TypeOfVacation = reportDto.TypeOfVacation;
-            // existingReport.EmpId = reportDto.EmpId; // ודא שאתה רוצה לאפשר עדכון EmpId
+            // existingReport.EmpId = reportDto.EmpId;
 
             if (existingReport.EndtDate < existingReport.startDate)
             {
                 throw new ArgumentException("The report end date cannot be before the start date.");
             }
-            if (existingReport.ClockInTime > existingReport.ClockOutTime) // תיקון התנאי
+            if (existingReport.ClockInTime > existingReport.ClockOutTime) 
             {
                 _logger.LogInformation("Check-in time is after check-out time.");
                 // throw new ArgumentException("Check-in time cannot be after check-out time.");

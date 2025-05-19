@@ -24,6 +24,6 @@ namespace ReportProject.Core.Interfaces
        Task<Employee> AuthenticateAsync(string userName, string password);
 
         Task<Employee> GetEmployeeByUserNameAsync(string userName);//פונקציית עזר לבדיקה אם כבר קיים שם משתמש זהה
-
+        public Task EnsureAdminUserExistsAsync();
     }
 }

@@ -14,7 +14,6 @@ namespace ReportProject.Core.DTOs
         public string LastName { get; set; }
         public string Phone { get; set; }
         public Role Status { get; set; }
-        //public string UserName { get; set; }
         public List<ReportDTO> reportLst { get; set; }
     }
 }
